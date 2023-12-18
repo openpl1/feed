@@ -397,6 +397,21 @@ Depends: python3-requests
 MD5Sum: adbde10c09b2c3590663b7b114853f6a
 SHA256sum: 82963b482ccff845ffc55bc96656d15d1b1e8e3e04bcbd28094ffb7ed0119c8a
 
+Package: enigma2-plugin-extensions-nordvpnconnector
+Version: 0.6-r1
+Description: Manage NordVPN Connections
+Section: misc
+Maintainer: Lizard
+MD5Sum: 51f2369ffb3b19bf7c7fb63bb9ea5707
+SHA256sum: e6b19ad22bff99b76664e6961ca406c64559296900a5e42f0f06a3b42afa588f
+Size: 82134
+Filename: enigma2-plugin-extensions-nordvpnconnector_0.6-r1_all.ipk
+Source: enigma2-plugin-extensions-nordvpnconnector.bb
+License: free
+Architecture: all
+Depends: iptables, kernel-module-xt-multiport, kernel-module-xt-state, kernel-module-xt-tcpudp, openvpn, python3-requests, bash, curl, openresolv
+Priority: optional
+
 Package: enigma2-plugin-extensions-plutotv
 Version: 20231210
 Section: extensions
@@ -737,19 +752,4 @@ Source: nodejs_18.14.2.bb
 Filename: nodejs_18.14.2-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 4939772
 MD5Sum: 83fe602b9a930c96128196788a27fc00
-
-Package: enigma2-plugin-extensions-nordvpnconnector
-Version: 0.5-r1
-Description: NordVPN - Manage connections
-Section: misc
-Maintainer: Lizard, RAED
-MD5Sum: 7d42c586d7ed3d468e11fdae7d3d926c
-SHA256sum: 21115426daa2842ca4f0d10c438c6b30885a16c8d7777701b6c84caa0e1695b7
-Size: 81556
-Filename: nordvpnconnector_0.5-r1_By-RAED-Py3_all.ipk
-Source: enigma2-plugin-extensions-nordvpnconnector.bb
-License: free
-Architecture: all
-Depends: iptables, kernel-module-xt-multiport, kernel-module-xt-state, kernel-module-xt-tcpudp, openvpn, python3-requests, bash, curl, openresolv
-Priority: optional
 
