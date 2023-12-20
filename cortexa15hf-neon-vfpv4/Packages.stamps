@@ -5659,8 +5659,8 @@
 1703054025 openjpeg-dev_2.5.0-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 openjpeg-staticdev_2.5.0-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 openjpeg_2.5.0-r0_cortexa15hf-neon-vfpv4.ipk
-1703057431 openpli-enigma2-feed-dbg_1.0-r0_cortexa15hf-neon-vfpv4.ipk
-1703057431 openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+1703063600 openpli-enigma2-feed-dbg_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+1703063600 openpli-enigma2-feed-dev_1.0-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 openssh-dbg_9.5p1-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 openssh-dev_9.5p1-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 openssh-doc_9.5p1-r0_cortexa15hf-neon-vfpv4.ipk
@@ -8018,3 +8018,11 @@
 1703054025 zstd-doc_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 zstd-staticdev_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
 1703054025 zstd_1.5.5-r0_cortexa15hf-neon-vfpv4.ipk
+1703063461 enigma2-plugin-extensions-oaweather-dbg_0.0-19-g5333fa7-r0_cortexa15hf-neon-vfpv4.ipk
+1703063461 enigma2-plugin-extensions-oaweather-dev_0.0-19-g5333fa7-r0_cortexa15hf-neon-vfpv4.ipk
+1703063461 enigma2-plugin-extensions-oaweather-src_0.0-19-g5333fa7-r0_cortexa15hf-neon-vfpv4.ipk
+1703063461 enigma2-plugin-extensions-oaweather_0.0-19-g5333fa7-r0_cortexa15hf-neon-vfpv4.ipk
+1703063460 enigma2-plugin-extensions-weatherplugin-dbg_0.0-41-gfe8b952-r0_cortexa15hf-neon-vfpv4.ipk
+1703063460 enigma2-plugin-extensions-weatherplugin-dev_0.0-41-gfe8b952-r0_cortexa15hf-neon-vfpv4.ipk
+1703063460 enigma2-plugin-extensions-weatherplugin-src_0.0-41-gfe8b952-r0_cortexa15hf-neon-vfpv4.ipk
+1703063460 enigma2-plugin-extensions-weatherplugin_0.0-41-gfe8b952-r0_cortexa15hf-neon-vfpv4.ipk
