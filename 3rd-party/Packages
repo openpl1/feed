@@ -19,7 +19,7 @@ Size: 678700
 MD5Sum: 3ba259337b77ea3592304d593222053e
 
 Package: enigma2-alliance-plugins
-Version: git3522+87d51450+87d5145b06-r0
+Version: git3522
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
@@ -52,7 +52,7 @@ License: none
 Priority: optional
 
 Package: enigma2-plugin-extensions-backupsuite
-Version: git557+256d1080+256d108b0a-r0
+Version: git557
 Depends: enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubifs, ofgwrite, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -68,7 +68,7 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch
-Version: git3519+269a0990+269a099786-r0
+Version: git3519
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
@@ -83,7 +83,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamosat-cammanager
-Version: git43+b8f3b610+b8f3b61713-r0
+Version: git43
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
@@ -99,7 +99,7 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamosat-downloader
-Version: git42+c69db7e0+c69db7eafd-r0
+Version: git43
 Depends: curl, libc6 (>= 2.38), python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -116,7 +116,7 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamosat-keyupdater
-Version: git43+b8f3b610+b8f3b61713-r0
+Version: git43
 Section: base
 Architecture: all
 Maintainer: audi06_19 <audi06_19@hotmail.com>
@@ -132,7 +132,7 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamosat-script
-Version: git42+c69db7e0+c69db7eafd-r0
+Version: git43
 Depends: curl, libc6 (>= 2.38), libcurl, p7zip, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -165,7 +165,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-enhancedmoviecenter
-Version: 4.0.+git1756+6aae86f-r0
+Version: 4.0.+git1756
 Description: Filemanager MoviePlayer Extentions
  Filemanager MoviePlayer Extentions.
 Section: extra
@@ -182,7 +182,7 @@ Size: 528522
 MD5Sum: 3d3f7de8241f09bdb722f15e23891bf9
 
 Package: enigma2-plugin-extensions-enigmalight
-Version: 1.42+git136+df9097b0+df9097b60e-r12
+Version: 1.42+git136
 Depends: libc6 (>= 2.38), libgcc1 (>= 13.2.0), libstdc++6 (>= 13.2.0), libusb-1.0-0 (>= 1.0.26)
 Recommends: kernel-module-cdc-acm, kernel-module-ch341, kernel-module-ftdi-sio, kernel-module-usbserial, libusb1, python3-cheetah
 Section: base
@@ -199,7 +199,7 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator
-Version: git3522+87d51450+87d5145b06-r0
+Version: git3522
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
@@ -215,7 +215,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator-po
-Version: git3522+87d51450+87d5145b06-r0
+Version: git3522
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
@@ -305,7 +305,7 @@ Size: 2459074
 MD5Sum: 0f686cfe190fffc184e79e684e73de70
 
 Package: enigma2-plugin-extensions-internetspeedtest
-Version: git40+46493890+4649389083-r0
+Version: git40
 Depends: python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -350,19 +350,19 @@ Size: 5082
 MD5Sum: a31cbb234b395ba355bc25de35a4d903
 
 Package: enigma2-plugin-extensions-mediastream
-Version: 20231130-python3.11-r0
+Version: 20231130
 Recommends: gstreamer1.0-plugins-base-opus, python3-pycryptodome
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: MP4ALL
-MD5Sum: 431f49a3feb64efcbfb922c0c2150eb8
-SHA256sum: 5787b7b58b43f1b7d865adfa890b88d0695c5be590306e19778af8c3ff2af855
+MD5Sum: d679bd5a8868d3ec28ad29d8cc446eae
+SHA256sum: 0e211c4c2cd0583a448d72b6e8a1b9263eda3a804de7aa98e14499c0755b482e
 Description: enigma2-plugin-extensions-mediastream
 OE: enigma2-plugin-extensions-mediastream
 Source: enigma2-plugin-extensions-mediastream.bb
 Homepage: https://github.com/MP4ALL
 Filename: enigma2-plugin-extensions-mediastream_20231130-python3.11-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 7465630
+Size: 7446658
 Depends: libc6 (>= 2.38), nodejs, python3-compression, python3-core, python3-db, python3-email, python3-future, python3-futures3, python3-html, python3-json, python3-multiprocessing, python3-netclient, python3-numbers, python3-pillow, python3-pkgutil, python3-pprint, python3-pyopenssl, python3-requests, python3-twisted-core, python3-twisted-web, python3-xml, python3-youtube-dl, python3-yt-dlp
 Priority: optional
 
@@ -460,7 +460,7 @@ Size: 173402
 MD5Sum: fb1bf97cad13c7b23e0ed423ddfbeb41
 
 Package: enigma2-plugin-extensions-sudoku
-Version: gitr7585+50dd0220+50dd022338-r1
+Version: gitr7585
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -476,7 +476,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tetris
-Version: gitr7585+50dd0220+50dd022338-r1
+Version: gitr7585
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -492,7 +492,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vierg
-Version: gitr7585+50dd0220+50dd022338-r1
+Version: gitr7585
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -508,7 +508,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vpnmanager
-Version: 1.1.7-py3
+Version: 1.1.7
 Depends: python3-future, python3-json, openvpn, bash, openresolv, python3-beautifulsoup4
 Section: extra
 Architecture: all
@@ -603,7 +603,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugins-alliance
-Version: gitr7585+50dd0220+50dd022338-r1
+Version: gitr7585
 Depends: python3-ctypes
 Section: base
 Architecture: dm920
