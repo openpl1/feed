@@ -818,14 +818,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 4.22-20231214-r1
+Version: 4.24-20231224-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 99da2d1b3fa1a58715e84b723779c72f
-SHA256sum: e92b4f53bb76ee55995765e66d0d4b0d29d30805fdc13b5d8aab51e4416f40fb
-Size: 712
-Filename: enigma2-plugin-extensions-xstreamity-dbg_4.22-20231214-r1_all.ipk
+MD5Sum: d617eefa18ca28d1fb3a2210e6ac4848
+SHA256sum: 1e1f1562514497744f3481cfad9c9b6ad4eaa020d37e1db04d8c4279edc65bf2
+Size: 710
+Filename: enigma2-plugin-extensions-xstreamity-dbg_4.24-20231224-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -834,15 +834,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 4.22-20231214-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 4.22-20231214-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 4.24-20231224-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 4.24-20231224-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: ea37b806bdb070f8dcd5932fbf2524fd
-SHA256sum: 85701ded3f8f588a8e992467bd4489327686d92c2633e29b292ca62ffe929563
-Size: 784
-Filename: enigma2-plugin-extensions-xstreamity-dev_4.22-20231214-r1_all.ipk
+MD5Sum: 5ab40f7f7abea79a2703bb917103d642
+SHA256sum: 5134d2da1b9e3bdc4d8cd74b6905d688a4098ecb3ff515fdadac9a3a10a49ddc
+Size: 780
+Filename: enigma2-plugin-extensions-xstreamity-dev_4.24-20231224-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -851,14 +851,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 4.22-20231214-r1
+Version: 4.24-20231224-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: b77278e46efaa6e1206047781df016a7
-SHA256sum: b12cae6a5819cc001048dce28464467bc2a72174e8b8da14ba2eed87d9843f61
-Size: 55894
-Filename: enigma2-plugin-extensions-xstreamity-src_4.22-20231214-r1_all.ipk
+MD5Sum: 5e5d39f257d561c352140d8f08fe89e6
+SHA256sum: ce3251aefa2182cd6d79a0ee0d56672c647311ef72fc2acedaf69ee38c22097c
+Size: 62180
+Filename: enigma2-plugin-extensions-xstreamity-src_4.24-20231224-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -867,15 +867,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 4.22-20231214-r1
+Version: 4.24-20231224-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cc829558c708a5d50712269edb203f4c
-SHA256sum: 52a386592c7f09bdd9afd1f036aac65af08695912616e781a73c9d96d8a9f21e
-Size: 2742406
-Filename: enigma2-plugin-extensions-xstreamity_4.22-20231214-r1_all.ipk
+MD5Sum: b19b1e14a31de8664d3766385374dbec
+SHA256sum: 0bc784966bc6ed2905c39c2b84361efd5ca4d0081ba30f13f35e81b887337f9b
+Size: 5138310
+Filename: enigma2-plugin-extensions-xstreamity_4.24-20231224-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -3279,14 +3279,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-fhd2-dbg
-Version: 1.0+git7+069f23e0+069f23e8f7-r0
+Version: 1.0+git8+60545820+6054582a6e-r0
 Section: devel
 Architecture: all
 Maintainer: All
-MD5Sum: fa443bd4c53682325271fa4b0eec77ef
-SHA256sum: e2d5520400e2b486699fa53a8e9eeb5f785b9236a2442fc058d438deafeb3db9
-Size: 666
-Filename: enigma2-plugin-skins-pli-fhd2-dbg_1.0+git7+069f23e0+069f23e8f7-r0_all.ipk
+MD5Sum: f9c975be82e2ac0c5443f62f3153d23d
+SHA256sum: a2fea7de955028701475b4ba83b47c191927f1e120e7b40f36fce4ea51d7f2a8
+Size: 664
+Filename: enigma2-plugin-skins-pli-fhd2-dbg_1.0+git8+60545820+6054582a6e-r0_all.ipk
 Source: enigma2-plugin-skins-pli-fhd2.bb
 Description: enigma2-plugin-skins-pli-fhd2 version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-skins-pli-fhd2
@@ -3294,15 +3294,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-fhd2-dev
-Version: 1.0+git7+069f23e0+069f23e8f7-r0
-Recommends: enigma2-plugin-skins-pli-fhd2 (= 1.0+git7+069f23e0+069f23e8f7-r0)
+Version: 1.0+git8+60545820+6054582a6e-r0
+Recommends: enigma2-plugin-skins-pli-fhd2 (= 1.0+git8+60545820+6054582a6e-r0)
 Section: devel
 Architecture: all
 Maintainer: All
-MD5Sum: f0e41e9a5df187250be07e04eec7efa4
-SHA256sum: 5aca5ae1009f3bccce0c6f629ed5a2302204a5086d17800fb8e2c3ed023ed807
-Size: 706
-Filename: enigma2-plugin-skins-pli-fhd2-dev_1.0+git7+069f23e0+069f23e8f7-r0_all.ipk
+MD5Sum: 45756737a7292209fd59c6a8863bc628
+SHA256sum: f6473210c21c6fd44e7d49450ad166c4d41e5cb822aef2e4291e30d159b37a09
+Size: 704
+Filename: enigma2-plugin-skins-pli-fhd2-dev_1.0+git8+60545820+6054582a6e-r0_all.ipk
 Source: enigma2-plugin-skins-pli-fhd2.bb
 Description: enigma2-plugin-skins-pli-fhd2 version 1.0+git-r0 - Development files
 OE: enigma2-plugin-skins-pli-fhd2
@@ -3310,14 +3310,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-fhd2
-Version: 1.0+git7+069f23e0+069f23e8f7-r0
+Version: 1.0+git8+60545820+6054582a6e-r0
 Section: base
 Architecture: all
 Maintainer: All
-MD5Sum: 4e45ef5b55b6377dc67ae43b0d611169
-SHA256sum: 0f9127e6889eb92acc2438e9b81cadcbaee047da32f7bc6b2da1e57cfd3e81d1
-Size: 300286
-Filename: enigma2-plugin-skins-pli-fhd2_1.0+git7+069f23e0+069f23e8f7-r0_all.ipk
+MD5Sum: 9324107e6b611de2c953264d2b695de0
+SHA256sum: d428c55748fc6af816a2be32cfcf1f1189ddb85cdbf4001b23a4e1c883393610
+Size: 300306
+Filename: enigma2-plugin-skins-pli-fhd2_1.0+git8+60545820+6054582a6e-r0_all.ipk
 Source: enigma2-plugin-skins-pli-fhd2.bb
 Description: enigma2-plugin-skins-pli-fhd2 version 1.0+git-r0
 OE: enigma2-plugin-skins-pli-fhd2
