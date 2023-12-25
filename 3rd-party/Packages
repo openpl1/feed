@@ -360,7 +360,7 @@ SHA256sum: 0e211c4c2cd0583a448d72b6e8a1b9263eda3a804de7aa98e14499c0755b482e
 Description: MediaPortal - MediaStream - IPTV Plugin
 OE: enigma2-plugin-extensions-mediastream
 Source: enigma2-plugin-extensions-mediastream.bb
-Homepage: https://github.com/MP4ALL
+Homepage: http://mediastream.medianewsonline.com/
 Filename: enigma2-plugin-extensions-mediastream_20231130-python3.11-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 7446658
 Depends: libc6 (>= 2.38), nodejs, python3-compression, python3-core, python3-db, python3-email, python3-future, python3-futures3, python3-html, python3-json, python3-multiprocessing, python3-netclient, python3-numbers, python3-pillow, python3-pkgutil, python3-pprint, python3-pyopenssl, python3-requests, python3-twisted-core, python3-twisted-web, python3-xml, python3-youtube-dl, python3-yt-dlp
