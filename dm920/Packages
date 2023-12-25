@@ -422,8 +422,8 @@ Version: 1.5.2-211-gb4f09515-r0
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: e38555fc29990fbb09486f132ce1b285
-SHA256sum: 3812865207b669b916bad4e7aada093f0fbb7d62ff19630b1ecab0b628b94f00
+MD5Sum: 6d4361b01548c5572344e253aec1b1ab
+SHA256sum: 8063762e9f3d9f4dd412e3d4762d18a678f23f9ea797601cb52d60cd3d3090b1
 Size: 602
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.5.2-211-gb4f09515-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -438,9 +438,9 @@ Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 1.5.2-211-gb4f0
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: b9e075cd4884a1f27fc14598b8cffe3f
-SHA256sum: 4fc76310ff8728b53c3b4fcdbf55646982d34d9f44fddda2506dab9ee353b497
-Size: 740
+MD5Sum: 3102c5179c5f791ab77e544dfa786b76
+SHA256sum: 5cfd6642a838b1e7a7efef716efd4e7feb24972851962b344185e3a3b4225b86
+Size: 738
 Filename: enigma2-plugin-extensions-openwebif-dev_1.5.2-211-gb4f09515-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Development files
@@ -455,9 +455,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: f6c89c527ad27267f6dd2d108e216d18
-SHA256sum: 5b295b64b59c8eaa793e2cf29b61fed8e697fcba7edec72ccd3471a51cecc332
-Size: 3784038
+MD5Sum: 490d86fbdeba601a5c85658e70963624
+SHA256sum: fd11d8fb34bb2339708edf08598e172df3fdb289bbe62f112a70c46bbf58fac6
+Size: 3784216
 Filename: enigma2-plugin-extensions-openwebif_1.5.2-211-gb4f09515-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
@@ -1032,8 +1032,8 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libgcc-dbg, libgstaudio-1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 213692e724070aef5b3d952a4a8212a4
-SHA256sum: 31a828cdfbf837466eb2b0634a2de7485748d0c88098fcce0e72703ef629740d
+MD5Sum: 8449db0aff3c9f23b88265a3b41fcb53
+SHA256sum: 76cd8734ee24aa86018c9e30d943b8a62db11169cbea91226ebce486de9e87da
 Size: 564404
 Filename: enigma2-plugin-systemplugins-servicemp3-dbg_git52+9dbde900+9dbde909b1-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -1048,8 +1048,8 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-servicemp3 (= git52+9dbde9
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 62c32735a245f5c769d9a698ae6bf521
-SHA256sum: f9166988f535df26c851848201706780c424f770cf7c1c885875185e8fe4a4ae
+MD5Sum: 3c87100413ca3e87faabe116be71485e
+SHA256sum: b64c2ade6acd75cc7f2df054905a97c6013d28fa4cd8da5235933ae5faaa5ce7
 Size: 1022
 Filename: enigma2-plugin-systemplugins-servicemp3-dev_git52+9dbde900+9dbde909b1-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -1066,8 +1066,8 @@ Recommends: gstreamer1.0-plugins-good-pulse
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 49390ceab743fceb77a0c71953391936
-SHA256sum: 2d8e9b2bcd1b6b89166dc5efc77d73ebd553795ab0966d8b3462da96ec38cd41
+MD5Sum: f116d110b4708a96c014d42872ac6b0d
+SHA256sum: a50ea60ff1de9a53387abf2c8bcabc59b59586b8a2f70308b441d271318ff54b
 Size: 51132
 Filename: enigma2-plugin-systemplugins-servicemp3_git52+9dbde900+9dbde909b1-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -19730,9 +19730,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: dm920
 Maintainer: PLi team
-MD5Sum: 911157f4647885409d02190cdf211946
-SHA256sum: 8a1613dba90c9b8695e82c3e4fea16059b4aa170cfd409c2cb3fa7e479155a7e
-Size: 349894
+MD5Sum: 424d537197d37f550732ef16cb0d000c
+SHA256sum: 8c65b6b47e04ce40581cf4923b1d091d4686db4a4a99b58c433e3d6fbcd9800c
+Size: 587198
 Filename: openpli-bootlogo_4.1-r0_dm920.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 4.1-r0
