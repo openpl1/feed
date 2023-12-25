@@ -357,7 +357,7 @@ Architecture: cortexa15hf-neon-vfpv4
 Maintainer: MP4ALL
 MD5Sum: d679bd5a8868d3ec28ad29d8cc446eae
 SHA256sum: 0e211c4c2cd0583a448d72b6e8a1b9263eda3a804de7aa98e14499c0755b482e
-Description: enigma2-plugin-extensions-mediastream
+Description: MediaPortal - MediaStream - IPTV Plugin
 OE: enigma2-plugin-extensions-mediastream
 Source: enigma2-plugin-extensions-mediastream.bb
 Homepage: https://github.com/MP4ALL
