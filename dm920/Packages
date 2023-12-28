@@ -151,6 +151,23 @@ OE: distro-feed-configs
 License: MIT
 Priority: optional
 
+Package: dreambox-blindscan-utils
+Version: 1.12-r0
+Depends: libc6 (>= 2.38+git0+1e04dcec49), libncurses5 (>= 6.4), libtinfo5 (>= 6.4)
+Provides: virtual/blindscan-dvbc, virtual/blindscan-dvbs
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8082a3e00042fb5e3d9eb21119d199c7
+SHA256sum: b007f31ee839e8d5bd327d0f1c31b46ef766604b9b6d0ce8e409b6c97483ad32
+Size: 82718
+Filename: dreambox-blindscan-utils_1.12-r0_dm920.ipk
+Source: dreambox-blindscan-utils.bb
+Description: Utilities needed to do transponder blindscan with dreambox dvb receivers
+OE: dreambox-blindscan-utils
+License: Proprietary
+Priority: optional
+
 Package: dreambox-dvb-modules-dm920-dbg
 Version: 3.14-1.17-20200321-r0
 Section: devel
@@ -235,9 +252,9 @@ Version: develop-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 618662ef9e9da9fc56d8489f3db36936
-SHA256sum: bcd0d21e514f2f81fba3ef16cd25ce1c61a272ae94be241a8235d35334734c46
-Size: 1256
+MD5Sum: d9217d22d37f9d1259aa8aa693465d30
+SHA256sum: dda098edffccfb80bd1b5f2d71056dd1eb8d4031b556ef3fc50860b1e1380059
+Size: 1272
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
