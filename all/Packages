@@ -499,8 +499,8 @@ Version: 1.10-20231125-r3
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 60089e89f8405daa243fe9f3712fda62
-SHA256sum: 44a1a2c6bbc7e10ed1b3090de0ad1243b6f0580780e0b4b7d7fde12e9eede280
+MD5Sum: 08ad4da0790e2f58d77fa2dec588f07d
+SHA256sum: 3440b84b190e37f557e8b65d3b21ef6040323c482f752060b77b3f3a38860a6a
 Size: 616
 Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.10-20231125-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
@@ -516,9 +516,9 @@ Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.10-20231125-r3), p
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a99d973875119567c5b6349d544e30ea
-SHA256sum: 09607ab60173fadc2481c132aadf8cccdb9de15d50ef956c6dc7c55c583d9d3d
-Size: 674
+MD5Sum: 33875b24e7f75b286b845a5b7f749f9c
+SHA256sum: ea44669dc875326aa34537a9b7850ffb5337a7e05781c032892ee2a052850e33
+Size: 676
 Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.10-20231125-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
@@ -533,9 +533,9 @@ Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8fae2a64b05a2b524ad2f7eab9500a32
-SHA256sum: b44f821f802f7718f34559ae3441991b399a4fd6ca4c2aa101ee8fd6b3336103
-Size: 1267022
+MD5Sum: bbe4ecf01b9db58fef16951f658fabc7
+SHA256sum: d4154ed3a973b3f981e9f0110c534f549f6bc1206c1f417ac6b7dbd1623bc7ca
+Size: 1267140
 Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.10-20231125-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
@@ -818,14 +818,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 4.24-20231224-6-gbb29b5c-r1
+Version: 4.27-20231228-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 87da15e1a0f76451f0ad1dd25dd73d9f
-SHA256sum: d00f9fb64d5add5ce4d0e9ca300f12c748370790b5724eb9c4c74f30fa495bf3
-Size: 628
-Filename: enigma2-plugin-extensions-xstreamity-dbg_4.24-20231224-6-gbb29b5c-r1_all.ipk
+MD5Sum: 4cee04f60ece236685b13bb9efedc8b1
+SHA256sum: e645674ac43c8b0dc29d08ef5f7485da0742a0ef93f241938ae59bbbd36df01b
+Size: 620
+Filename: enigma2-plugin-extensions-xstreamity-dbg_4.27-20231228-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -834,15 +834,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 4.24-20231224-6-gbb29b5c-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 4.24-20231224-6-gbb29b5c-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 4.27-20231228-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 4.27-20231228-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5e9773acc01a462f414b8367a8c9df2a
-SHA256sum: 00e2005ed2c28b462597391a5d05d5e69efd62a378173ffe788a7279d7cab0b3
-Size: 700
-Filename: enigma2-plugin-extensions-xstreamity-dev_4.24-20231224-6-gbb29b5c-r1_all.ipk
+MD5Sum: d80d1133c1648f219c69a3f2b2fc726b
+SHA256sum: d09266e9aee3e7b6346b820afb770b6c1d3a8cac4d31a0c9bec3ed6aab0104da
+Size: 692
+Filename: enigma2-plugin-extensions-xstreamity-dev_4.27-20231228-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -851,14 +851,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 4.24-20231224-6-gbb29b5c-r1
+Version: 4.27-20231228-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a33d622f7461bc6c65139340e7842fb5
-SHA256sum: 3c5ea6c4fe424e2e377c785302f2d4ec44212b5b0b1a335b3d772c4644c2f915
-Size: 80834
-Filename: enigma2-plugin-extensions-xstreamity-src_4.24-20231224-6-gbb29b5c-r1_all.ipk
+MD5Sum: 748de906356ceb938b3552bfdaff7ea7
+SHA256sum: 56db4da29c49580b6ae13995e28726dc10aa98fa5cd28401e10a343c9c2499f7
+Size: 80812
+Filename: enigma2-plugin-extensions-xstreamity-src_4.27-20231228-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -867,15 +867,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 4.24-20231224-6-gbb29b5c-r1
+Version: 4.27-20231228-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 96efb8e7dea223676022ed767b39b28c
-SHA256sum: 99a371d6ca5af197b2b2d1a7de64ec19f5368182c7b99a3c4bd3f7083b2b827c
-Size: 5897960
-Filename: enigma2-plugin-extensions-xstreamity_4.24-20231224-6-gbb29b5c-r1_all.ipk
+MD5Sum: 1860cc0fd2928b6ff32fe7ee0356288c
+SHA256sum: 7e216c6a55a30c4c109480b80d79cccea236af214f50991cc41811ef82ff0cbc
+Size: 5916080
+Filename: enigma2-plugin-extensions-xstreamity_4.27-20231228-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -7574,14 +7574,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git566+ea3744c0+ea3744c429-3
+Version: 2+git567+79a2f800+79a2f80e83-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 1db8f4e55977c28f2a2de43bcb21bc09
-SHA256sum: fdcc18e240afa60e8f0a8e1443b2b6337e7023d7d93c86b02015a372bdd5cea2
+MD5Sum: 410235fdddcabd006610c7b19d026945
+SHA256sum: 2579f6af4b73cfa28a29d2a7fc5ae2c92888444a56a10b6e70eec6608148f0df
 Size: 568
-Filename: tuxbox-common-dbg_2+git566+ea3744c0+ea3744c429-3_all.ipk
+Filename: tuxbox-common-dbg_2+git567+79a2f800+79a2f80e83-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -7589,15 +7589,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git566+ea3744c0+ea3744c429-3
-Recommends: tuxbox-common (>= 2+git566+ea3744c0+ea3744c429-3), tuxbox-common (<< 2+git566+ea3744c0+ea3744c429-3.0), xz-dev
+Version: 2+git567+79a2f800+79a2f80e83-3
+Recommends: tuxbox-common (>= 2+git567+79a2f800+79a2f80e83-3), tuxbox-common (<< 2+git567+79a2f800+79a2f80e83-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: e359e4da5dd3b4018f5d619b3e89d61c
-SHA256sum: 7878c966caaa9316fee5c64e022ae9b877dee19b3842c1e892619e48a6aca41c
-Size: 620
-Filename: tuxbox-common-dev_2+git566+ea3744c0+ea3744c429-3_all.ipk
+MD5Sum: 596809f278bc4b6741c31792ba3dc8fd
+SHA256sum: 26e148000742f2eb427b7e44acf5f9e35a766351f3c7f8a5151c9e17df661c07
+Size: 622
+Filename: tuxbox-common-dev_2+git567+79a2f800+79a2f80e83-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -7605,15 +7605,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git566+ea3744c0+ea3744c429-3
+Version: 2+git567+79a2f800+79a2f80e83-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 366bd3c3a53b1e76ebc2efb8221bb127
-SHA256sum: 902b755a0113fff806712ed83e7fe0ef02fa2088d72ca7627dae521d69e4ed7f
-Size: 73594
-Filename: tuxbox-common_2+git566+ea3744c0+ea3744c429-3_all.ipk
+MD5Sum: 28ef6eaf149fc46d6fc92c0e593c0ec8
+SHA256sum: 34d489e72af86ba94dd3bd5fc2929899e93c73f759ec7be2bb304db01df6d773
+Size: 73614
+Filename: tuxbox-common_2+git567+79a2f800+79a2f80e83-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
@@ -7621,14 +7621,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tzdata-africa
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 0ca30704deab2f96320e474a7cdb617c
-SHA256sum: a10cecb433ae2bdc473aec0b35255b67ede6a494a8908fc579ea49a911c53489
-Size: 4458
-Filename: tzdata-africa_2023c-r0_all.ipk
+MD5Sum: c2322b6f7b18b053f49e5c8109450984
+SHA256sum: e7b1fafe27efccf19684d968fd6d69682b2c1afa70803b01cb8ea76b1ed5fb75
+Size: 4454
+Filename: tzdata-africa_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7637,14 +7637,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-americas
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8d7ed12b798abeae7c9882a79bd5b822
-SHA256sum: 8b5cc1b5a1441e1bd1954e94688ef3bba288af60a6d683cc3fd052ac2f5167ef
-Size: 21812
-Filename: tzdata-americas_2023c-r0_all.ipk
+MD5Sum: 87c3202f3c5595483f2e68086706c565
+SHA256sum: 7246ceafdffeee98bad9e8729b29d4783db29d350e8a8c02cae99089d3739e95
+Size: 21810
+Filename: tzdata-americas_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7653,14 +7653,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-antarctica
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e506acba523a903ef610906bbd9d24fa
-SHA256sum: 192980a4082d95a141b61c0663446fafa950896de75e977b9a6cd783926d1d6c
-Size: 2776
-Filename: tzdata-antarctica_2023c-r0_all.ipk
+MD5Sum: 7d034c12cceb4844154f7b8c4897ee6d
+SHA256sum: ad56e02e9ea35f2eb2a574a43d27b67309d8248b8e4b87232c306ea51329b762
+Size: 2814
+Filename: tzdata-antarctica_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7669,14 +7669,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-arctic
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a5e51648608494deed742957ad4b23b8
-SHA256sum: 50000942284adb8bb790e7b87c602845c70ee396347106f72b627096cae0b222
+MD5Sum: 5c037d3019f8bff36bbd5992a49c93b7
+SHA256sum: f76cf23e2021bad76b96711c99a83f36ca67572c19e21fd9e7f8bf42c021bd1f
 Size: 1136
-Filename: tzdata-arctic_2023c-r0_all.ipk
+Filename: tzdata-arctic_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7685,14 +7685,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-asia
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 049acb227e7bc7fc0796a7887d1098e7
-SHA256sum: 0f8157d77efbb266aff572f72c735a99c64ab4f93f43afc3f88f86bf97bed45a
-Size: 13920
-Filename: tzdata-asia_2023c-r0_all.ipk
+MD5Sum: 49b8a9d8299ab1bba914eb2a6d061e8a
+SHA256sum: 0977b63b12f4913afac1d1506a7dd564da41fa3d2bfe5b006139c1fd727fc534
+Size: 14142
+Filename: tzdata-asia_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7701,14 +7701,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-atlantic
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 83e33158c67db271b7b6cbc27fc6c101
-SHA256sum: 1007c164bea23c245cb465be74bcd22ee4c091fc1270d50305094f9d9ab67bdb
-Size: 3664
-Filename: tzdata-atlantic_2023c-r0_all.ipk
+MD5Sum: 0a41821d84990dd44ee6329944d6dd1a
+SHA256sum: d8868787c98891c61bd5bd8b159c7ea46f4698b4af8e7b5b2342772563998ddf
+Size: 3666
+Filename: tzdata-atlantic_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7717,14 +7717,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-australia
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 95ff84ec409076e3a0bfe7c529254e98
-SHA256sum: 612155185e8ecbc20d75677cf9fd119bb954bf9e8369141046e82c4d294d0995
+MD5Sum: f897ac4c4714af8eb3b14ad530e9d76f
+SHA256sum: dcb0d586fd922279bdefaa89cc354f3ed62bc831700b6b39318026ccb8ec0ef3
 Size: 2690
-Filename: tzdata-australia_2023c-r0_all.ipk
+Filename: tzdata-australia_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7733,14 +7733,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-core
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3c45a1c2ad2aec40bc830a048f5d53e2
-SHA256sum: cc29185217c88b42f7cc326903c18f025b657d3ea81b42f85692ac88ee121627
-Size: 32604
-Filename: tzdata-core_2023c-r0_all.ipk
+MD5Sum: 53ee9d3e13ab8b5b124abce449dd4f81
+SHA256sum: 80a88df1b55b25397a6644bc5ff528af8dee11ed616d7fa74477b79037b14f86
+Size: 32698
+Filename: tzdata-core_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7749,14 +7749,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-europe
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2fa6dfb2960bd2c7ab80afccbf5d48f3
-SHA256sum: 4bbf677c23b2f1e2fe56de0e2e1dd182d1f3fcecca9267c872b47fb1ba79ddc1
-Size: 8452
-Filename: tzdata-europe_2023c-r0_all.ipk
+MD5Sum: cb2ba26f4027775086863936fe1ff15d
+SHA256sum: 09e5ef8d65a41b93122a3651919301c7f704d15e1fb9bc0413dd716ee21eab17
+Size: 8462
+Filename: tzdata-europe_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7765,14 +7765,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-misc
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 96fbca096c7ebf693556542d8556600a
-SHA256sum: eeef212948a1695bda2575d5133551f6507bbdeb0af006c948cf926144862f38
-Size: 6888
-Filename: tzdata-misc_2023c-r0_all.ipk
+MD5Sum: 4f51a4f74a4182b3bf5266a16a9a5a8c
+SHA256sum: b434e9f2c0878b5340f422957d309f63a188596d7109b26cec017af7380aad39
+Size: 6890
+Filename: tzdata-misc_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7781,14 +7781,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-pacific
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6beba6a7725931e876da0dc948d4ef96
-SHA256sum: 0fa063dd050a38ae7da962d743339b35494c159191183f5db5dfb9ac75cae9ba
-Size: 4668
-Filename: tzdata-pacific_2023c-r0_all.ipk
+MD5Sum: b1b878fc5165060caf706fc95f32d912
+SHA256sum: d5d5df37f2440f5af0ec20913179e50cc056be60937eb7c77b20266260027641
+Size: 4666
+Filename: tzdata-pacific_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7797,14 +7797,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-posix
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 49b100aa8ac04e8aeadc580cd473906f
-SHA256sum: 36058394d6fe4a8906eb413b5b6a00b8e550a439ef942780ce6189390418df14
-Size: 57036
-Filename: tzdata-posix_2023c-r0_all.ipk
+MD5Sum: a53f69f24e9fbd97fd571b923d815ac6
+SHA256sum: 2d2543ccb8dc5ae6b78f223eee31cffa4d15055ebd9c800fdcd2a2c78d21a399
+Size: 57338
+Filename: tzdata-posix_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7813,14 +7813,14 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata-right
-Version: 2023c-r0
+Version: 2023d-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 12a2c2ba7d508c7c1ed1a4d450f0b698
-SHA256sum: 8b49685e02fa65d01bdd3d2bfe7023dcb833b05cb78cf6f4af8ee4825eb3e2bd
-Size: 58562
-Filename: tzdata-right_2023c-r0_all.ipk
+MD5Sum: cedcdd89ce92c8a414f9afe2ed115647
+SHA256sum: eea488b9403b0c84bdb266e738cae66b08b403c4a7269dcb2b08601e90b536ee
+Size: 58896
+Filename: tzdata-right_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata
@@ -7829,15 +7829,15 @@ License: PD & BSD-3-Clause
 Priority: optional
 
 Package: tzdata
-Version: 2023c-r0
+Version: 2023d-r0
 Depends: tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-core, tzdata-europe, tzdata-misc, tzdata-pacific, tzdata-posix, tzdata-right
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e945cdbd581a79f89702e9cc0c4b49ee
-SHA256sum: d63a387ae767dab574e5e9f7281999b724c0ee277d5dd2469b98db5a972c05b2
+MD5Sum: 7f4e865d0ab29607e337ba6e6072092e
+SHA256sum: 22fb2d16ba8440f707f986cdf3af1a748d82ca7d5e7eabe528ea699435eba2a5
 Size: 974
-Filename: tzdata_2023c-r0_all.ipk
+Filename: tzdata_2023d-r0_all.ipk
 Source: tzdata.bb
 Description: Timezone data
 OE: tzdata

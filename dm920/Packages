@@ -437,8 +437,8 @@ Version: 1.5.2-211-gb4f09515-r0
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 6d4361b01548c5572344e253aec1b1ab
-SHA256sum: 8063762e9f3d9f4dd412e3d4762d18a678f23f9ea797601cb52d60cd3d3090b1
+MD5Sum: e38555fc29990fbb09486f132ce1b285
+SHA256sum: 3812865207b669b916bad4e7aada093f0fbb7d62ff19630b1ecab0b628b94f00
 Size: 602
 Filename: enigma2-plugin-extensions-openwebif-dbg_1.5.2-211-gb4f09515-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
@@ -453,9 +453,9 @@ Recommends: aio-grab-dev, enigma2-plugin-extensions-openwebif (= 1.5.2-211-gb4f0
 Section: devel
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 3102c5179c5f791ab77e544dfa786b76
-SHA256sum: 5cfd6642a838b1e7a7efef716efd4e7feb24972851962b344185e3a3b4225b86
-Size: 738
+MD5Sum: b9e075cd4884a1f27fc14598b8cffe3f
+SHA256sum: 4fc76310ff8728b53c3b4fcdbf55646982d34d9f44fddda2506dab9ee353b497
+Size: 740
 Filename: enigma2-plugin-extensions-openwebif-dev_1.5.2-211-gb4f09515-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0 - Development files
@@ -470,9 +470,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 490d86fbdeba601a5c85658e70963624
-SHA256sum: fd11d8fb34bb2339708edf08598e172df3fdb289bbe62f112a70c46bbf58fac6
-Size: 3784216
+MD5Sum: 667a40c11377e3500a257e1facbda155
+SHA256sum: 03d458cfddcc7c29d76c68550f4ec23b1380048200837168313c4eb1cfa5c1c4
+Size: 3784112
 Filename: enigma2-plugin-extensions-openwebif_1.5.2-211-gb4f09515-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
@@ -1208,9 +1208,9 @@ Recommends: enigma2-plugin-skins-pli-hd, glibc-gconv-utf-16, hotplug-e2-helper, 
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 13c266efb034a28d965418271d1abd46
-SHA256sum: 8828d6ef7869641a6ff7e242b6b03aee838b6a88769ec219f02d043b4b51ec58
-Size: 8866572
+MD5Sum: b09190adbfc58c76294349c80aa9294c
+SHA256sum: cc1722f5d71a3bb81815171c0ddcbd8aab0501a7aa65701dc010e94baa34ad59
+Size: 8866546
 Filename: enigma2_3.11+git219+6fa8e580+6fa8e58f35-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -20369,13 +20369,13 @@ Priority: optional
 
 Package: packagegroup-machine-base
 Version: 1.0-r0
-Recommends: gstreamer1.0-libav, gstreamer1.0-plugin-multibox-dvbmediasink, kernel-module-autofs4, kernel-module-cifs, kernel-module-ecb, kernel-module-exportfs, kernel-module-fuse, kernel-module-hmac, kernel-module-md4, kernel-module-nfsd, kernel-module-snd-oss, kernel-module-snd-pcm-oss
+Recommends: gstreamer1.0-libav, gstreamer1.0-plugin-multibox-dvbmediasink, kernel-module-autofs4, kernel-module-cifs, kernel-module-ecb, kernel-module-exportfs, kernel-module-fuse, kernel-module-hmac, kernel-module-md4, kernel-module-nfsd, kernel-module-snd-oss, kernel-module-snd-pcm-oss, libvc5dream
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 580c486a56b2dcb5451b7fce8f397321
-SHA256sum: 3a593ca5925378278f5cfbb473c793529359332c42c5cafae3b4cd5b4598e80a
-Size: 678
+MD5Sum: ddcbb9aa2c4cedba22b787bcd10ad9af
+SHA256sum: 511a2a41e8e6179da9201b8e236ede549c72faa335176b6683161f5af62ed780
+Size: 684
 Filename: packagegroup-machine-base_1.0-r0_dm920.ipk
 Source: packagegroup-base.bb
 Description: Extra packages required to fully support dm920 hardware
