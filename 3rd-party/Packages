@@ -34,16 +34,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-ajpanel
-Version: v9.0.0
+Version: v9.1.0
 Depends: python3-core
 Recommends: enigma2-plugin-systemplugins-serviceapp
 Section: base
 Architecture: all
 Maintainer: AMA-Jamry
-MD5Sum: 6f59621a7b9c30095f3b654a64ac9132
-SHA256sum: 6527355d1ed910064e31b94be7a844074ee0282e1b8980dbf6051bdc8ceb3d29
-Size: 405682
-Filename: enigma2-plugin-extensions-ajpanel_v9.0.0_all.ipk
+MD5Sum: 9a9b684230eed04ce0e875ce164428c2
+SHA256sum: 722c34429fb1da0482dc0e10c8a65155d83efa8e0150230e2aed5c86ae15fded
+Size: 462556
+Filename: enigma2-plugin-extensions-ajpanel_v9.1.0_all.ipk
 Source: enigma2-plugin-extensions-ajpanel.bb
 Description: Enigma2 Tools
 OE: enigma2
