@@ -12,11 +12,11 @@ License: LGPL-2.1-only
 Architecture: dm920
 OE: directfb
 Homepage: http://directfb.org
-Depends: libc6 (>= 2.38), libfreetype6 (>= 2.13.2), libgcc1 (>= 13.2.0), libjpeg62 (>= 2.1.5.1), libpng16-16 (>= 1.6.39), libstdc++6 (>= 12.2.0), libz1 (>= 1.2.13)
+Depends: libc6 (>= 2.38), libfreetype6 (>= 2.11.0), libgcc1 (>= 13.2.0), libjpeg62 (>= 3.0.1), libpng16-16 (>= 1.6.40), libstdc++6 (>= 13.2.0), libz1 (>= 1.3)
 Source: directfb_1.7.7.bb
 Filename: directfb_1.7.7-r0_dm920.ipk
-Size: 678700
-MD5Sum: 3ba259337b77ea3592304d593222053e
+Size: 925548
+MD5Sum: 2f5238b498fc9d100242bcb1d5250417
 
 Package: enigma2-alliance-plugins
 Version: git3522
@@ -619,25 +619,25 @@ License: Proprietary
 Priority: optional
 
 Package: libcares2
-Version: 1.19.0-r0
+Version: 1.22.1-r0
 Description: c-ares is a C library that resolves names asynchronously.
  c-ares is a C library that resolves names asynchronously..
 Section: libs
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Maintainer: openATV
 License: MIT
 Architecture: cortexa15hf-neon-vfpv4
 OE: c-ares
 Homepage: http://daniel.haxx.se/projects/c-ares/
 Depends: libc6 (>= 2.38)
 Provides: c-ares
-Source: c-ares_1.19.0.bb
-Filename: libcares2_1.19.0-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 28398
-MD5Sum: 9e35e9e261778898df6185af1ed94571
+Source: c-ares_1.22.1.bb
+Filename: libcares2_1.22.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 43308
+MD5Sum: 26c90958205d8d4b5488d059f5489a56
 
-Package: libicudata72
-Version: 72-1-r0
+Package: libicudata74
+Version: 74-1-r0
 Description: International Component for Unicode libraries
  The International Component for Unicode (ICU) is a mature, portable set
  of C/C++ and Java libraries for Unicode support, software
@@ -652,13 +652,13 @@ OE: icu
 Homepage: http://site.icu-project.org/
 Depends: libc6 (>= 2.38)
 Provides: libicudata
-Source: icu_72-1.bb
-Filename: libicudata72_72-1-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 7544568
-MD5Sum: 98515082a4dbdb9f1fe144be0be24a28
+Source: icu_74-1.bb
+Filename: libicudata74_74-1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 11433282
+MD5Sum: 2fd9f6ccd60c2325bccc481388ea8bf0
 
-Package: libicui18n72
-Version: 72-1-r0
+Package: libicui18n74
+Version: 74-1-r0
 Description: International Component for Unicode libraries
  The International Component for Unicode (ICU) is a mature, portable set
  of C/C++ and Java libraries for Unicode support, software
@@ -671,15 +671,15 @@ License: ICU
 Architecture: cortexa15hf-neon-vfpv4
 OE: icu
 Homepage: http://site.icu-project.org/
-Depends: libc6 (>= 2.38), libgcc1 (>= 13.2.0), libicudata72 (>= 72-1), libicuuc72 (>= 72-1), libstdc++6 (>= 12.2.0)
+Depends: libc6 (>= 2.38), libgcc1 (>= 13.2.0), libicudata74 (>= 74-1), libicuuc74 (>= 74-1), libstdc++6 (>= 13.2.0)
 Provides: libicui18n
-Source: icu_72-1.bb
-Filename: libicui18n72_72-1-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 681902
-MD5Sum: 25cf0ed3cfe6523e338ef83ef4d5e72b
+Source: icu_74-1.bb
+Filename: libicui18n74_74-1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 957508
+MD5Sum: 2976249b5656435225af8d86e4806aa3
 
-Package: libicuuc72
-Version: 72-1-r0
+Package: libicuuc74
+Version: 74-1-r0
 Description: International Component for Unicode libraries
  The International Component for Unicode (ICU) is a mature, portable set
  of C/C++ and Java libraries for Unicode support, software
@@ -692,12 +692,12 @@ License: ICU
 Architecture: cortexa15hf-neon-vfpv4
 OE: icu
 Homepage: http://site.icu-project.org/
-Depends: libc6 (>= 2.38), libgcc1 (>= 13.2.0), libicudata72 (>= 72-1), libstdc++6 (>= 12.2.0)
+Depends: libc6 (>= 2.38), libgcc1 (>= 13.2.0), libicudata74 (>= 74-1), libstdc++6 (>= 13.2.0)
 Provides: libicuuc
-Source: icu_72-1.bb
-Filename: libicuuc72_72-1-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 479034
-MD5Sum: 121321aeec139a2fe57a2c90b1c9fc23
+Source: icu_74-1.bb
+Filename: libicuuc74_74-1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 673254
+MD5Sum: ca33ce122da0747b367cbd76bf5523ac
 
 Package: libcrypto-compat
 Version: 3.1.1-r0
@@ -736,19 +736,19 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: nodejs
-Version: 18.14.2-r0
-Description: nodejs version 18.14.2-r0
+Version: 20.8.1-r0
+Description: nodejs version 20.8.1-r0
  nodeJS Evented I/O for V8 JavaScript
 Section: base
 Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+Maintainer: openATV
 License: MIT & ISC & BSD-2-Clause & BSD-3-Clause & Artistic-2.0 & Apache-2.0
 Architecture: cortexa15hf-neon-vfpv4
 OE: nodejs
 Homepage: http://nodejs.org
-Depends: brotli (>= 1.0.9), libc6 (>= 2.38), libcares2 (>= 1.19.0), libcrypto3 (>= 3.1.0), libgcc1 (>= 13.2.0), libicui18n72 (>= 72-1), libicuuc72 (>= 72-1), libssl3 (>= 3.1.0), libstdc++6 (>= 12.2.0), libz1 (>= 1.2.13)
-Source: nodejs_18.14.2.bb
-Filename: nodejs_18.14.2-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 4939772
-MD5Sum: 83fe602b9a930c96128196788a27fc00
+Depends: brotli (>= 1.1.0), libc6 (>= 2.38), libcares2 (>= 1.22.1), libcrypto3 (>= 3.2.0), libgcc1 (>= 13.2.0), libicui18n74 (>= 74-1), libicuuc74 (>= 74-1), libssl3 (>= 3.2.0), libstdc++6 (>= 13.2.0), libz1 (>= 1.3)
+Source: nodejs_20.8.1.bb
+Filename: nodejs_20.8.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 5568672
+MD5Sum: a3c7a4aa7072d447648932d71158d0f6
 
