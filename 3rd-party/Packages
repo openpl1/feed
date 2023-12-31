@@ -465,7 +465,7 @@ MD5Sum: 4e65e1ba23a52e7dc36bb0c1c589d5a9
 Size: 164126
 Filename: enigma2-plugin-extensions-schiffe_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: Enigma2 Plugin: extensions-schiffe
+Description: Enigma2 Game: Schiffe Versenken
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
@@ -480,7 +480,7 @@ MD5Sum: 8919224fe38024e6a3396acf11eaa639
 Size: 304616
 Filename: enigma2-plugin-extensions-sudoku_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: Enigma2 Plugin: extensions-sudoku
+Description: Enigma2 Game: Sudoku
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
@@ -495,7 +495,7 @@ MD5Sum: 54c1b72beeeb0f978dea8bacc79b11e5
 Size: 130914
 Filename: enigma2-plugin-extensions-tetris_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: Enigma2 Plugin: extensions-tetris
+Description: Enigma2 Game: Tetris
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
@@ -510,7 +510,7 @@ MD5Sum: fd423dd9c0b2454b70515eb87dcdeed2
 Size: 36940
 Filename: enigma2-plugin-extensions-vierg_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: Enigma2 Plugin: extensions-vierg
+Description: Enigma2 Game: Connect Four
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
