@@ -12,7 +12,7 @@ License: LGPL-2.1-only
 Architecture: dm920
 OE: directfb
 Homepage: http://directfb.org
-Depends: libc6 (>= 2.38), libfreetype6 (>= 2.11.0), libgcc1 (>= 13.2.0), libjpeg62 (>= 3.0.1), libpng16-16 (>= 1.6.40), libstdc++6 (>= 13.2.0), libz1 (>= 1.3)
+Depends: libc6 (>= 2.38), libfreetype6 (>= 2.13.2), libgcc1 (>= 13.2.0), libjpeg62 (>= 3.0.1), libpng16-16 (>= 1.6.40), libstdc++6 (>= 13.2.0), libz1 (>= 1.3)
 Source: directfb_1.7.7.bb
 Filename: directfb_1.7.7-r0_dm920.ipk
 Size: 925548
@@ -27,7 +27,7 @@ MD5Sum: 7bc65ea7410a9c4704373e963739be18
 Size: 1146
 Filename: enigma2-alliance-plugins_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description:  Additional plugins for Enigma2
+Description: Additional plugins for Enigma2
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
@@ -51,7 +51,7 @@ License: none
 Priority: optional
 
 Package: enigma2-plugin-extensions-backupsuite
-Version: git559+3010f020+3010f02795-r0
+Version: git559
 Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubifs, ofgwrite, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
@@ -60,13 +60,13 @@ MD5Sum: d8c849fc6052387b1914a8b136955677
 Size: 93718
 Filename: enigma2-plugin-extensions-backupsuite_git559+3010f020+3010f02795-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
-Description:  Enigma2 Plugin: extensions-backupsuite
+Description: Enigma2 Plugin: extensions-backupsuite
 OE: enigma2-plugin-extensions-backupsuite
 License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch
-Version: git3535+aa6e1b80+aa6e1b88bf-r0
+Version: git3535
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
@@ -75,7 +75,7 @@ MD5Sum: d0b5c75335dda4f888f1ada8ffd1b62c
 Size: 93378
 Filename: enigma2-plugin-extensions-chefkoch_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description:  extensions-chefkoch
+Description: Enigma2 Plugin: extensions-chefkoch
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
@@ -102,10 +102,10 @@ Depends: curl, libc6 (>= 2.38), python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: c5f70f9d641cb2215e3d3b3178855705
-SHA256sum: 4b5394a3cf91cb9a1e619bceebeb471f3a13af8a0648b4e63b9a939f5b61c950
-Size: 352336
-Filename: enigma2-plugin-extensions-dreamosat-downloader_git42+c69db7e0+c69db7eafd-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 3b68bd06da7b5653bf3afa65ddb0ce5e
+SHA256sum: 0fbaf12e67f49a5fe0889c1259b1f1eb09aa1c5a764ef0da16e06e3e3c2cf619
+Size: 352342
+Filename: enigma2-plugin-extensions-dreamosat-downloader_git43+b8f3b610+b8f3b61713-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-dreamosat-downloader_git.bb
 Description: Enigma2 Plugin DreamOSat Downloader For Images by audi06_19
 OE: enigma2-plugin-extensions-dreamosat-downloader
@@ -135,10 +135,10 @@ Depends: curl, libc6 (>= 2.38), libcurl, p7zip, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: audi06_19 <audi06_19@hotmail.com>
-MD5Sum: a1dd65de71bf43f11a325f374997e507
-SHA256sum: b903925fc49f25da9a6179f2662d09b3e025310e19a8d10fb4fc4027ae5724b0
-Size: 1042338
-Filename: enigma2-plugin-extensions-dreamosat-script_git42+c69db7e0+c69db7eafd-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: e662065d2fb66ff00a8a062a94ff2be7
+SHA256sum: d4cc296b76fed54ca8c7fc4d3a088dd5878381590157310125ec61b3e2da5dd2
+Size: 1043540
+Filename: enigma2-plugin-extensions-dreamosat-script_git43+b8f3b610+b8f3b61713-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-dreamosat-script_git.bb
 Description: Enigma2 Plugin DreamOSat Script For Images by audi06_19
 OE: enigma2-plugin-extensions-dreamosat-script
@@ -190,14 +190,14 @@ MD5Sum: 3707d92f0bb84dbb5312ba22630d1db0
 Size: 1861568
 Filename: enigma2-plugin-extensions-enigmalight_1.42+git136+df9097b0+df9097b60e-r12_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-enigmalight.bb
-Description:  enigma2-plugin-extensions-enigmalight version 1.42+git-r12
+Description: enigma2-plugin-extensions-enigmalight
 OE: enigma2-plugin-extensions-enigmalight
 HomePage: https://github.com/oe-mirrors/enigmalight
 License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator
-Version: git3535+aa6e1b80+aa6e1b88bf-r0
+Version: git3535
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
@@ -206,7 +206,7 @@ MD5Sum: 1450e63061f295555bb81b71975b6fe9
 Size: 1602652
 Filename: enigma2-plugin-extensions-epgtranslator_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description:  extensions-epgtranslator
+Description: Enigma2 Plugin: extensions-epgtranslator
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
@@ -221,7 +221,7 @@ MD5Sum: ccdae76d1d81f436da9e6402073a7975
 Size: 5684
 Filename: enigma2-plugin-extensions-epgtranslator-po_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description:  extensions-epgtranslator (translations)
+Description: extensions-epgtranslator (translations)
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
@@ -310,7 +310,7 @@ MD5Sum: 78a8df5613d7d3028db3dd27d884de39
 Size: 699084
 Filename: enigma2-plugin-extensions-internetspeedtest_git40+46493890+4649389083-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-internetspeedtest.bb
-Description:  Internet speed test for enigma2
+Description: Internet speed test for enigma2
 OE: enigma2-plugin-extensions-internetspeedtest
 License: GPL-2.0-only
 Priority: optional
@@ -327,7 +327,7 @@ Size: 743140
 Filename: enigma2-plugin-extensions-ipaudiopro_1.1.ipk
 Source: enigma2-plugin-extensions-ipaudiopro.bb
 Homepage: https://github.com/zKhadiri/IPAudio
-Description: ENIGMA2 IP Audio Plugin
+Description: Enigma2 IP Audio Plugin
 OE: enigma2-plugin-extensions-ipaudiopro
 License: Proprietary
 Priority: optional
@@ -456,7 +456,7 @@ Size: 173402
 MD5Sum: fb1bf97cad13c7b23e0ed423ddfbeb41
 
 Package: enigma2-plugin-extensions-schiffe
-Version: gitr7616+54de85a0+54de85a0da-r8
+Version: gitr7616
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -465,13 +465,13 @@ MD5Sum: 4e65e1ba23a52e7dc36bb0c1c589d5a9
 Size: 164126
 Filename: enigma2-plugin-extensions-schiffe_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description:  extensions-schiffe
+Description: Enigma2 Plugin: extensions-schiffe
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-sudoku
-Version: gitr7616+54de85a0+54de85a0da-r8
+Version: gitr7616
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -480,13 +480,13 @@ MD5Sum: 8919224fe38024e6a3396acf11eaa639
 Size: 304616
 Filename: enigma2-plugin-extensions-sudoku_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description:  extensions-sudoku
+Description: Enigma2 Plugin: extensions-sudoku
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tetris
-Version: gitr7616+54de85a0+54de85a0da-r8
+Version: gitr7616
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -495,13 +495,13 @@ MD5Sum: 54c1b72beeeb0f978dea8bacc79b11e5
 Size: 130914
 Filename: enigma2-plugin-extensions-tetris_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description:  extensions-tetris
+Description: Enigma2 Plugin: extensions-tetris
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vierg
-Version: gitr7616+54de85a0+54de85a0da-r8
+Version: gitr7616
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
@@ -510,7 +510,7 @@ MD5Sum: fd423dd9c0b2454b70515eb87dcdeed2
 Size: 36940
 Filename: enigma2-plugin-extensions-vierg_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description:  extensions-vierg
+Description: Enigma2 Plugin: extensions-vierg
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
@@ -525,7 +525,7 @@ MD5Sum: 52f0138fd0fb5307fa60871a29e07f8f
 Size: 491660
 Filename: enigma2-plugin-extensions-vpnmanager_1.1.7-py3_all.ipk
 Source: https://www.boxpirates.to
-Description:  OpenVpn Verbindungen verwalten
+Description: OpenVpn Verbindungen verwalten
 HomePage: https://www.boxpirates.to
 License: free
 Priority: optional
@@ -611,7 +611,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugins-alliance
-Version: gitr7616+54de85a0+54de85a0da-r8
+Version: gitr7616
 Depends: python3-ctypes
 Section: base
 Architecture: dm920
@@ -620,7 +620,7 @@ MD5Sum: 3f40c3c723a6ee9b5c00b73d887d4b05
 Size: 2340
 Filename: enigma2-plugins-alliance_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description:  Additional plugins for Enigma2
+Description: Additional plugins for Enigma2
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
