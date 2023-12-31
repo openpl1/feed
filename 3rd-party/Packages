@@ -19,16 +19,15 @@ Size: 925548
 MD5Sum: 2f5238b498fc9d100242bcb1d5250417
 
 Package: enigma2-alliance-plugins
-Version: git3522
+Version: git3535+aa6e1b80+aa6e1b88bf-r0
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: f232d1b50cce727cad321c2660789cc2
-SHA256sum: ad0124a184dec7f9d7fdb17cec44b87953bf3a5924bcb7b1ec4ff960ae342a35
-Size: 1142
-Filename: enigma2-alliance-plugins_git3522+87d51450+87d5145b06-r0_dm920.ipk
+MD5Sum: 7bc65ea7410a9c4704373e963739be18
+Size: 1146
+Filename: enigma2-alliance-plugins_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description: Additional plugins for Enigma2
+Description:  Additional plugins for Enigma2
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
@@ -52,30 +51,29 @@ License: none
 Priority: optional
 
 Package: enigma2-plugin-extensions-backupsuite
-Version: git557
-Depends: enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubifs, ofgwrite, python3-core
+Version: git559+3010f020+3010f02795-r0
+Depends: bzip2, enigma2-plugin-extensions-backupsuite, mtd-utils, mtd-utils-ubifs, ofgwrite, python3-core
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03447439398534d77c0c143a0d982709
-SHA256sum: 9492377f12294fb58d336e8e3d9eeb0a3992171d1513e2438da4f1a2b1e0c880
-Size: 93656
-Filename: enigma2-plugin-extensions-backupsuite_git557+256d1080+256d108b0a-r0_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: d8c849fc6052387b1914a8b136955677
+Size: 93718
+Filename: enigma2-plugin-extensions-backupsuite_git559+3010f020+3010f02795-r0_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-backupsuite.bb
-Description: Enigma2 Plugin: extensions-backupsuite
+Description:  Enigma2 Plugin: extensions-backupsuite
 OE: enigma2-plugin-extensions-backupsuite
 License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-chefkoch
-Version: git3519
+Version: git3535+aa6e1b80+aa6e1b88bf-r0
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 102daa6c6eded76f7ce1b7187b3eb7f5
-Size: 93376
-Filename: enigma2-plugin-extensions-chefkoch_git3519+269a0990+269a099786-r0_dm920.ipk
+MD5Sum: d0b5c75335dda4f888f1ada8ffd1b62c
+Size: 93378
+Filename: enigma2-plugin-extensions-chefkoch_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
 Description:  extensions-chefkoch
 OE: enigma2-alliance-plugins
@@ -199,33 +197,31 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator
-Version: git3522
+Version: git3535+aa6e1b80+aa6e1b88bf-r0
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 8a0b1a8baab3176c7d118d4f4725e4ee
-SHA256sum: 48ad37cbf85ac921365492adaaa2b13719446f83d5918a4793bd6bc4abe4dcff
-Size: 1602772
-Filename: enigma2-plugin-extensions-epgtranslator_git3522+87d51450+87d5145b06-r0_dm920.ipk
+MD5Sum: 1450e63061f295555bb81b71975b6fe9
+Size: 1602652
+Filename: enigma2-plugin-extensions-epgtranslator_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description: extensions-epgtranslator
+Description:  extensions-epgtranslator
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgtranslator-po
-Version: git3522
+Version: git3535+aa6e1b80+aa6e1b88bf-r0
 Depends: enigma2-alliance-plugins
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 442e67335cf9c03683a1a36db2dcd7fe
-SHA256sum: 6de589927096a085bdf72f974b5a5c9920d7cf67d937d780c7232ccff6b0519e
-Size: 5692
-Filename: enigma2-plugin-extensions-epgtranslator-po_git3522+87d51450+87d5145b06-r0_dm920.ipk
+MD5Sum: ccdae76d1d81f436da9e6402073a7975
+Size: 5684
+Filename: enigma2-plugin-extensions-epgtranslator-po_git3535+aa6e1b80+aa6e1b88bf-r0_dm920.ipk
 Source: enigma2-alliance-plugins.bb
-Description: extensions-epgtranslator (translations)
+Description:  extensions-epgtranslator (translations)
 OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
@@ -459,50 +455,62 @@ Filename: enigma2-plugin-extensions-samsungtvplus_20231005-r1_all.ipk
 Size: 173402
 MD5Sum: fb1bf97cad13c7b23e0ed423ddfbeb41
 
-Package: enigma2-plugin-extensions-sudoku
-Version: gitr7585
+Package: enigma2-plugin-extensions-schiffe
+Version: gitr7616+54de85a0+54de85a0da-r8
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 1aa4436117a4d02845f91b0a17980b6e
-SHA256sum: e643033ef7b50c32789cfe026dceaab3ca292bc3dc4e97811be88e70e17f6c4c
-Size: 304606
-Filename: enigma2-plugin-extensions-sudoku_gitr7585+50dd0220+50dd022338-r1_dm920.ipk
+MD5Sum: 4e65e1ba23a52e7dc36bb0c1c589d5a9
+Size: 164126
+Filename: enigma2-plugin-extensions-schiffe_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: extensions-sudoku
+Description:  extensions-schiffe
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-sudoku
+Version: gitr7616+54de85a0+54de85a0da-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8919224fe38024e6a3396acf11eaa639
+Size: 304616
+Filename: enigma2-plugin-extensions-sudoku_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description:  extensions-sudoku
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-tetris
-Version: gitr7585
+Version: gitr7616+54de85a0+54de85a0da-r8
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 1685ea2d4b7e1ad489860835eff8a5ca
-SHA256sum: f4d94ec0d7ca3ceae3bbd057f905c4581e00aa3e36a616f1d89209b6123ede5d
-Size: 130920
-Filename: enigma2-plugin-extensions-tetris_gitr7585+50dd0220+50dd022338-r1_dm920.ipk
+MD5Sum: 54c1b72beeeb0f978dea8bacc79b11e5
+Size: 130914
+Filename: enigma2-plugin-extensions-tetris_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: extensions-tetris
+Description:  extensions-tetris
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-vierg
-Version: gitr7585
+Version: gitr7616+54de85a0+54de85a0da-r8
 Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 4b071d2e1a7c85d061a78d1e1a6403a3
-SHA256sum: 200659d56f83108483a77d39def708b27e0208369b32c9e95ddf4c93fa0cce64
-Size: 36942
-Filename: enigma2-plugin-extensions-vierg_gitr7585+50dd0220+50dd022338-r1_dm920.ipk
+MD5Sum: fd423dd9c0b2454b70515eb87dcdeed2
+Size: 36940
+Filename: enigma2-plugin-extensions-vierg_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: extensions-vierg
+Description:  extensions-vierg
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
@@ -603,17 +611,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugins-alliance
-Version: gitr7585
+Version: gitr7616+54de85a0+54de85a0da-r8
 Depends: python3-ctypes
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 2ffc780f71b7b0576fa72ac983436bd2
-SHA256sum: 70ffc02c08f97a2de9625a80d717f70d69f5b2d55428d736ee02b5b0adbc941f
-Size: 2342
-Filename: enigma2-plugins-alliance_gitr7585+50dd0220+50dd022338-r1_dm920.ipk
+MD5Sum: 3f40c3c723a6ee9b5c00b73d887d4b05
+Size: 2340
+Filename: enigma2-plugins-alliance_gitr7616+54de85a0+54de85a0da-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
-Description: Additional plugins for Enigma2
+Description:  Additional plugins for Enigma2
 OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
