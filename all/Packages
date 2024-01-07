@@ -3037,52 +3037,6 @@ OE: enigma2-plugin-skins-e2darkos
 License: GPL-3.0-only
 Priority: optional
 
-Package: enigma2-plugin-skins-fullhdline-dbg
-Version: 1.0+git2+409c5ae0+409c5ae62d-r0
-Section: devel
-Architecture: all
-Maintainer: MIC71, all
-MD5Sum: 87b34e39bfbebf98ba2998d79c9b6dfd
-SHA256sum: 8fd63964b5bda432d8e933ad21e2eb523f13c9b0be367c45a7add8c57010cae7
-Size: 602
-Filename: enigma2-plugin-skins-fullhdline-dbg_1.0+git2+409c5ae0+409c5ae62d-r0_all.ipk
-Source: enigma2-plugin-skins-fullhdline.bb
-Description: enigma2-plugin-skins-fullhdline version 1.0+git-r0 - Debugging files
-OE: enigma2-plugin-skins-fullhdline
-License: GPL-3.0-only
-Priority: optional
-
-Package: enigma2-plugin-skins-fullhdline-dev
-Version: 1.0+git2+409c5ae0+409c5ae62d-r0
-Recommends: enigma2-plugin-skins-fullhdline (= 1.0+git2+409c5ae0+409c5ae62d-r0)
-Section: devel
-Architecture: all
-Maintainer: MIC71, all
-MD5Sum: b5964ef155d2b39eb5e325516f210585
-SHA256sum: 18daab7368035703cf902e41704410f88cefb46efd44865655f83f5b6f45c82a
-Size: 638
-Filename: enigma2-plugin-skins-fullhdline-dev_1.0+git2+409c5ae0+409c5ae62d-r0_all.ipk
-Source: enigma2-plugin-skins-fullhdline.bb
-Description: enigma2-plugin-skins-fullhdline version 1.0+git-r0 - Development files
-OE: enigma2-plugin-skins-fullhdline
-License: GPL-3.0-only
-Priority: optional
-
-Package: enigma2-plugin-skins-fullhdline
-Version: 1.0+git2+409c5ae0+409c5ae62d-r0
-Section: base
-Architecture: all
-Maintainer: MIC71, all
-MD5Sum: 6b3548b927cb7a5db4f58616c0df8f8f
-SHA256sum: e207fd56cc8e7c5c34bddccd8f80e745f9b0509889bd881e39fc3a68a8522305
-Size: 3272476
-Filename: enigma2-plugin-skins-fullhdline_1.0+git2+409c5ae0+409c5ae62d-r0_all.ipk
-Source: enigma2-plugin-skins-fullhdline.bb
-Description: enigma2-plugin-skins-fullhdline version 1.0+git-r0
-OE: enigma2-plugin-skins-fullhdline
-License: GPL-3.0-only
-Priority: optional
-
 Package: enigma2-plugin-skins-glamouraura-fhd-dbg
 Version: 6.0.5+git463+0a7f7810+0a7f781b0e-r0
 Section: devel
