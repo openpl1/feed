@@ -868,14 +868,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dbg
-Version: 4.28-20240102-r1
+Version: 4.29-20240107-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4ff3da3bd00d7144fb0a27255147efb8
-SHA256sum: a7243c562a42c4714c50d224d9c4e6a240d38dff3a8f0af1053ede6b6e094627
+MD5Sum: 5c82723fb9e77d5ec4d38116776f02ac
+SHA256sum: ff29af146a99c46c2c588186832866749c8b2087668f085b55d07ac6433b8d88
 Size: 620
-Filename: enigma2-plugin-extensions-xstreamity-dbg_4.28-20240102-r1_all.ipk
+Filename: enigma2-plugin-extensions-xstreamity-dbg_4.29-20240107-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-xstreamity
@@ -884,15 +884,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-dev
-Version: 4.28-20240102-r1
-Recommends: enigma2-plugin-extensions-xstreamity (= 4.28-20240102-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 4.29-20240107-r1
+Recommends: enigma2-plugin-extensions-xstreamity (= 4.29-20240107-r1), python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: aeddbe461ef1c3c123df3894450398a1
-SHA256sum: 772c819aad300442ff9f398f9039b18ebb82b180c58c8df2ed2db4f13c757170
-Size: 690
-Filename: enigma2-plugin-extensions-xstreamity-dev_4.28-20240102-r1_all.ipk
+MD5Sum: be680d2b0a142ccf48611ff9bee2a7fb
+SHA256sum: 82037e456081158161fc0f4afda10eb3a9750e0a3ab684e1f69a829a83e33380
+Size: 692
+Filename: enigma2-plugin-extensions-xstreamity-dev_4.29-20240107-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
 OE: enigma2-plugin-extensions-xstreamity
@@ -901,14 +901,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity-src
-Version: 4.28-20240102-r1
+Version: 4.29-20240107-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: bd390fc48c7d366bca53b86ada7f2867
-SHA256sum: 516e2f604c17b378697980cb0fc59b99349d79f8f1e795a2d82eefc0af3e55e6
-Size: 80874
-Filename: enigma2-plugin-extensions-xstreamity-src_4.28-20240102-r1_all.ipk
+MD5Sum: 7984854c8297e8af3d338bde37f7c464
+SHA256sum: ce691dd2e2858880ca2a0a0ff1ab0863ff66b4779eb162a8f03832bf504e4e92
+Size: 80918
+Filename: enigma2-plugin-extensions-xstreamity-src_4.29-20240107-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Source files
 OE: enigma2-plugin-extensions-xstreamity
@@ -917,15 +917,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-xstreamity
-Version: 4.28-20240102-r1
+Version: 4.29-20240107-r1
 Depends: python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: bc280fd876cacc34a6a5b4fbf040eec0
-SHA256sum: 207bc6677aef1e2d07581fb6d23723f3693c43de4ff3b0bdbc36120322e3c5d3
-Size: 3970010
-Filename: enigma2-plugin-extensions-xstreamity_4.28-20240102-r1_all.ipk
+MD5Sum: 83aaf258372bc1021e2c4b68936fc538
+SHA256sum: caaa9c7f3b63fbc8101acc088527748df3f6a2595e1c28a8a4e03de783c314f6
+Size: 3971202
+Filename: enigma2-plugin-extensions-xstreamity_4.29-20240107-r1_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
 OE: enigma2-plugin-extensions-xstreamity
@@ -7579,8 +7579,8 @@ Version: 1.8.3+git1+8314fb90+8314fb9a70-r0
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 434f335d72c25ab504f0b6e246389696
-SHA256sum: 3865ea564b747cbede7840be1849ffa0d975e2ac05ab3f5fa651c7a441bebae2
+MD5Sum: 564814bd069b275d391609c495af04e2
+SHA256sum: ece1ab9b7184eebbe55e1d4d115ec8deaa51db75d01b4e52eafb1bf856e79351
 Size: 606
 Filename: streamlinksrv-dbg_1.8.3+git1+8314fb90+8314fb9a70-r0_all.ipk
 Source: streamlinksrv.bb
@@ -7596,8 +7596,8 @@ Recommends: python3-core-dev, streamlink-dev, streamlinksrv (= 1.8.3+git1+8314fb
 Section: devel
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: e1ab2f213be44729dabe495750211764
-SHA256sum: bd790b9851fa4226375182d7d447fc28806f4ec479f49940b7412547eaeaf7b1
+MD5Sum: 18ad33856d516a5605e23a0a1c1418f1
+SHA256sum: ee2829b42a1c577c2eb69ae7093d61ed3b1b7f9dceb4868b3cf24a5c35f3b81c
 Size: 656
 Filename: streamlinksrv-dev_1.8.3+git1+8314fb90+8314fb9a70-r0_all.ipk
 Source: streamlinksrv.bb
@@ -7613,9 +7613,9 @@ Depends: python3-core, streamlink
 Section: devel/python
 Architecture: all
 Maintainer: SatDreamGR Billy2011
-MD5Sum: 52606ca5e107f167035f99b9235246df
-SHA256sum: 799bb3edb27380e5ea259adc6d33b8cd3d9e66238eac1f7530f373dc2e83f7b1
-Size: 85624
+MD5Sum: 76164f2fe14b42ee41d52dc46309d50f
+SHA256sum: 94e3367cfd2869883e3e005eb4a1e3847910dddcbcd07c4ba8af66b5aaec3937
+Size: 85628
 Filename: streamlinksrv_1.8.3+git1+8314fb90+8314fb9a70-r0_all.ipk
 Source: streamlinksrv.bb
 Description: streamlinksrv version 1.8.3+git-r0
@@ -7625,14 +7625,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git571+36060e40+36060e42fd-3
+Version: 2+git572+bb004360+bb004366cf-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 0ba1cd7e196ce3a493ce3d63cfe00cf7
-SHA256sum: a3c4fd0a91d7f23f57912633db85204093fdab0371fd869039731ed1796f9576
+MD5Sum: 47544c055f14d0406ace50767fdfdda7
+SHA256sum: 8e9b58fe932f5d87e0e74611e6d4c0c765ce71db5910372827deb82afc4a5cda
 Size: 568
-Filename: tuxbox-common-dbg_2+git571+36060e40+36060e42fd-3_all.ipk
+Filename: tuxbox-common-dbg_2+git572+bb004360+bb004366cf-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -7640,15 +7640,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git571+36060e40+36060e42fd-3
-Recommends: tuxbox-common (>= 2+git571+36060e40+36060e42fd-3), tuxbox-common (<< 2+git571+36060e40+36060e42fd-3.0), xz-dev
+Version: 2+git572+bb004360+bb004366cf-3
+Recommends: tuxbox-common (>= 2+git572+bb004360+bb004366cf-3), tuxbox-common (<< 2+git572+bb004360+bb004366cf-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: ba2608d2a874440a8d9da0e9b8fe7326
-SHA256sum: d1d6f934ed11bc143295956a4fd97744f196fc4d0712b5c2b4629933458296df
+MD5Sum: 7606ae2fcbb47de601b99218167ed8f4
+SHA256sum: 74864819ae420b98657ff490b9bd41fc0d1923cf57457ee53c41d6a611282e6d
 Size: 620
-Filename: tuxbox-common-dev_2+git571+36060e40+36060e42fd-3_all.ipk
+Filename: tuxbox-common-dev_2+git572+bb004360+bb004366cf-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -7656,15 +7656,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git571+36060e40+36060e42fd-3
+Version: 2+git572+bb004360+bb004366cf-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 503cc366b30f502e461b7d07e47bce3f
-SHA256sum: c22f11f6c33c7dfd38bbc03041ff6cbb944ea6d5ec0213bf37334461a6afac8c
-Size: 73578
-Filename: tuxbox-common_2+git571+36060e40+36060e42fd-3_all.ipk
+MD5Sum: 3db4d62333a74685247a59b74a56121f
+SHA256sum: e5c8a7c5461598180c5ff63f1086ceb1f05a86dee4bab32952a02377517996d8
+Size: 73594
+Filename: tuxbox-common_2+git572+bb004360+bb004366cf-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
