@@ -412,7 +412,7 @@ Size: 499840
 MD5Sum: 08b81cbe7c117e1e588c4512b579f139
 
 Package: enigma2-plugin-extensions-oaweather
-Version: 3.0-r1
+Version: 4.0
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: jbleyel
