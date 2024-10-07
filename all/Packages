@@ -997,9 +997,9 @@ Conflicts: enigma2-plugin-extensions-xmltvimport-rytec
 Section: base
 Architecture: all
 Maintainer: Rytec forum @ forums.openpli.org
-MD5Sum: 66d78357166d8c90d32b109bce1a4c2a
-SHA256sum: 588acb2403d09b6092d64d8b0af1f90a722f684cd9b035445509915d35d96abe
-Size: 4622
+MD5Sum: e2fa78fdbdf52b61daa5f60ed1635d70
+SHA256sum: 2ae21d2263ef2a6cf6340cd41813ee43aaf5985bc3242517bb593019bba9f294
+Size: 4778
 Filename: enigma2-plugin-extensions-epgimport-rytec_20230617-r0_all.ipk
 Source: enigma2-plugin-extensions-epgimport-rytec.bb
 Description: enigma2-plugin-extensions-epgimport-rytec version 20230617-r0
@@ -4513,14 +4513,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
-Version: 1.0+git121+5fa45890+5fa458986e-r0
+Version: 1.0+git122+f47726f0+f47726f0fb-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 1e65f406ddd583c1789e502363d4f125
-SHA256sum: aec04793d1d6b52651c5b9d8001a04f8dd850eda68c2da076afa2eb32b1bb9dd
-Size: 622
-Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git121+5fa45890+5fa458986e-r0_all.ipk
+MD5Sum: 1803e9bacf8371618d61762cc3afab65
+SHA256sum: 6e4eeb0f033808eb7e4b0fa61bc7afe59b80327f7d05d5a96f2b7f8a47bd9721
+Size: 620
+Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git122+f47726f0+f47726f0fb-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4529,15 +4529,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dev
-Version: 1.0+git121+5fa45890+5fa458986e-r0
-Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git121+5fa45890+5fa458986e-r0)
+Version: 1.0+git122+f47726f0+f47726f0fb-r0
+Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git122+f47726f0+f47726f0fb-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 8634411199f56e80f6f67f5a089a113c
-SHA256sum: 2bdd3163f34f8225758c066b54da454e20c9f0114a728c17819b418e93c2477b
+MD5Sum: ae05e9c384ec9f7b34249357b2b0fe5e
+SHA256sum: 9743ce370548d98381302ba333035e584c95221a11db01c928c9bafc12771c22
 Size: 656
-Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git121+5fa45890+5fa458986e-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git122+f47726f0+f47726f0fb-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4546,15 +4546,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv
-Version: 1.0+git121+5fa45890+5fa458986e-r0
+Version: 1.0+git122+f47726f0+f47726f0fb-r0
 Recommends: enigma2-plugin-extensions-tmdb
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 04f9f6c4add0ed7efa1e7081ccc017e7
-SHA256sum: d0519ec0bab78c879d30a7d96ed1d9e655c22404c2e0cf7e8f2feb2c38b19930
-Size: 83858
-Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git121+5fa45890+5fa458986e-r0_all.ipk
+MD5Sum: e248497d6a4a0e98c58b14571931fc66
+SHA256sum: 9df77b7cd9aec8dd5712d59a3dcffa8b2346636d102f8b00f2dee49cdafa2dee
+Size: 84882
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git122+f47726f0+f47726f0fb-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
