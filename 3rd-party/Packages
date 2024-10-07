@@ -360,7 +360,7 @@ Size: 47998
 MD5Sum: 52d11fb11ae368863e98473b0f52381d
 
 Package: enigma2-plugin-extensions-multi-stalkerpro
-Version: 1.2+git170
+Version: 1.2+git168
 Description: Multi-StalkerPro Plugin
 Section: multimedia
 Priority: optional
@@ -398,7 +398,7 @@ MD5Sum: 44d851e7406fc7334ed0045d2249f166
 SHA256sum: b306c2fcd31878229f6f683ddbbd685d7b65cadca1eccb44c61d84581c2a58a2
 
 Package: enigma2-plugin-extensions-ngsetting-fhd
-Version: 2.6
+Version: 2.7
 Section: extra
 Priority: optional
 Architecture: all
@@ -407,9 +407,9 @@ Description: NGsetting
 Source: <m43c0@live.it>
 Homepage: http://www.dream-elite.net
 OE: enigma2-plugin-extensions
-Filename: enigma2-plugin-extensions-ngsetting-fhd_2.6_all.ipk
-Size: 499840
-MD5Sum: 08b81cbe7c117e1e588c4512b579f139
+Filename: enigma2-plugin-extensions-ngsetting-fhd_2.7_all.ipk
+Size: 502620
+MD5Sum: 62ffe8c5cc1dd37cfff7ea67644cb61f
 
 Package: enigma2-plugin-extensions-oaweather
 Version: 4.0
