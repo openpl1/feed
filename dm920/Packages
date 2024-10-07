@@ -1311,13 +1311,13 @@ Version: 3.12+git21542+2c96be40+2c96be4c82-r0
 Depends: alsa-conf, boxbranding, enigma-info, enigma2-fonts, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, hotplug-e2-helper, libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.40+git0+7073164add), libcrypt2 (>= 4.4.36), libcrypto3 (>= 3.3.2), libdreamdvd0 (>= 1.1+git218+e09128b0+e09128b3ca), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.15), libgcc1 (>= 14.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.82.1), libgomp1 (>= 14.2.0), libjpeg62 (>= 3.0.1), libpng16-16 (>= 1.6.44), libpython3.12-1.0 (>= 3.12.7), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.3.2), libstdc++6 (>= 14.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread0 (>= 1.0.0+git108+b3e69360+b3e6936a23), libxml2 (>= 2.13.3), python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-email, python3-fcntl, python3-image, python3-logging, python3-mime, python3-mmap, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pickle, python3-process, python3-pyusb, python3-service-identity, python3-shell, python3-six, python3-threading, python3-treq, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, virtual-blindscan-dvbc
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
-Recommends: enigma2-plugin-extensions-socketmmi, enigma2-plugin-skins-pli-hd, glib-networking, glibc-gconv-utf-16, hotplug-e2-helper, libdvdcss, python3-compat2, python3-sendfile, virtual-enigma2-mediaservice
+Recommends: enigma2-plugin-extensions-socketmmi, enigma2-plugin-skins-pli-hd, glib-networking, glibc-gconv-utf-16, hotplug-e2-helper, libdvbcsa, libdvdcss, python3-compat2, python3-sendfile, virtual-enigma2-mediaservice
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b6abdf8a4819c7de66f88eb07a3c9098
-SHA256sum: ff4fa48542f5dd92902f1133425ad38b103b350e8629152de27b18bf2f1782cc
-Size: 9138688
+MD5Sum: 4969610da33ae495ac7f6c6d08a75faf
+SHA256sum: a6ea54f65531c75ae108f996e52b2aea9584920f2ca4b4fe1aee191d163a8f5a
+Size: 9138692
 Filename: enigma2_3.12+git21542+2c96be40+2c96be4c82-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
