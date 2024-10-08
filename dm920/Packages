@@ -580,9 +580,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: e87effcd41f6ebe90b0c9051551b1c8f
-SHA256sum: d9697b0993fd3c46b9797a57484f1530f8067fb410b4cff9770b9bbea99d1493
-Size: 3784524
+MD5Sum: eecaf04452945fdce23cd4148f733286
+SHA256sum: f5503b6ff59b8ce659392569fc10c5520e6bf3f026387a8bbf1c5806b07b36de
+Size: 3784772
 Filename: enigma2-plugin-extensions-openwebif_1.5.2-220-g37b1b24b-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
@@ -858,9 +858,9 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5701a637ec03c1f10207c529df4be1e6
-SHA256sum: fa93705d39b8d0df5d6125f0c9c232bcfc33ddd4ded61153ef5f0e2917742422
-Size: 730
+MD5Sum: 3946dbef60826f0438ef3bd75bbc1c59
+SHA256sum: 2ec0546381d32ec7c90632a94d5e3d0b2ad1d9775bbf74838cb1d4ab7521d121
+Size: 728
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.0+gitr561+927249e0+927249e5e9-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.9.0+gitr-r0 - Debugging files
@@ -875,9 +875,9 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d2dc633da958ac4c9b075b680aa9999e
-SHA256sum: e39d9da448055e8de71b43eca2d3b13473deb1beb0e6dd645deecf614abf47f6
-Size: 790
+MD5Sum: 4cb93cbac4e521126ec0da3d9795004b
+SHA256sum: 55bc72878c5d0457551e18d525af055a2c478d37c4ef8831c5c96abfce02641e
+Size: 788
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.0+gitr561+927249e0+927249e5e9-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.9.0+gitr-r0 - Development files
@@ -891,9 +891,9 @@ Version: 0.9.0+gitr561+927249e0+927249e5e9-r0
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d1a00b9efc1b444d1e025ed278108546
-SHA256sum: f4c6e2bc28dd9983deb84db5d4b6200283256acdc9e85be4bb402e8da9c4c055
-Size: 3470
+MD5Sum: 1e692c72265b07489df62766647e660d
+SHA256sum: 0627822109666b907626f2bc010d34ccc0838b5af4d56d0ace4dcc7bbf1d2cbf
+Size: 3466
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.0+gitr561+927249e0+927249e5e9-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.9.0+gitr-r0 - Source files
@@ -908,9 +908,9 @@ Depends: enigma2, libc6 (>= 2.40+git0+7073164add), libcurl4 (>= 8.10.1), libxml2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f1c0e62ef60de4ee9af6dd5942282cc0
-SHA256sum: ac20476706bf1459f47464c3e6a367fd193ff90518ad454cfb5b2b131c45c491
-Size: 300838
+MD5Sum: d8929ab6c78a4060bff9e22c279e583b
+SHA256sum: dec63c6f4557a24e2e84f8d81108a62ec335633371e20576aca75d6bafc1995c
+Size: 300896
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.0+gitr561+927249e0+927249e5e9-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -1106,9 +1106,9 @@ Recommends: glibc-dbg, libcrypto-dbg, libgcc-dbg, libssl-dbg, libstdc++-dbg, uch
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f24f4c8297742ad409529c405840742a
-SHA256sum: 9acbdbf8976b0dcb42e52cf2b2d31647c1b73c44e847f2c1797c251da2708955
-Size: 1502282
+MD5Sum: 69ca26942e1713ff1901f68bbc5e8d02
+SHA256sum: fdfa7f2368290eab8db0ea5d351b423d6c7089c0313b114ce863124f26bb949c
+Size: 1502280
 Filename: enigma2-plugin-systemplugins-serviceapp-dbg_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r0 - Debugging files
@@ -1122,8 +1122,8 @@ Recommends: enigma2-dev, enigma2-plugin-systemplugins-serviceapp (= git176+947f6
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c7f518da73be67736fa8efeea251aa08
-SHA256sum: f92d0270b935ed84476f5df88b30cc0ada87bf39ff79d33ba02470dc645a2826
+MD5Sum: a22e06eb2ba9f052c5c1dc76d19224d2
+SHA256sum: 3f8301221fcb0652814099e530bd3f8a978cf9408872e69f3e9070389c005795
 Size: 702
 Filename: enigma2-plugin-systemplugins-serviceapp-dev_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
@@ -1139,9 +1139,9 @@ Recommends: exteplayer3, gstplayer
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fbff4e00e3cdf0129b7d6e278e277408
-SHA256sum: 4c75c426f29645a6d8ded329d69e4bc7935b2a5a64b68309535f8afb090993fc
-Size: 117976
+MD5Sum: 5ea72f0e30e115caa6283a37d35753bf
+SHA256sum: 1a0c1db1d631fb444002cc742cc712056d43045667981dabe05c5a16dd07bf00
+Size: 117972
 Filename: enigma2-plugin-systemplugins-serviceapp_git176+947f62e0+947f62ed5c-r0_dm920.ipk
 Source: enigma2-plugin-systemplugins-serviceapp.bb
 Description: enigma2-plugin-systemplugins-serviceapp version git-r0
@@ -21537,9 +21537,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e85aaf2a3b366b181c7accfeee786164
-SHA256sum: 394bf79593d4f746c6c45343709eec768f21e971623164e6c100b35be9087631
-Size: 28742
+MD5Sum: 1e63d258077d107f5ff1b74c70574b51
+SHA256sum: aeae5392493f20b25d19079badee796f25b7c80dbb1b04989d411da5d1796061
+Size: 28760
 Filename: recovery_1.2+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.2.bb
 Description: Command-line tools to flash and recover your Dreambox
