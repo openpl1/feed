@@ -8905,15 +8905,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: softcam-support
-Version: 2-r0
+Version: 3-r0
 Recommends: update-rc.d
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: ee4f509bc640d5acc232c68439ef9d79
-SHA256sum: f9f7947395009d920fb573803cbbe57045eda43f484b4a31fbd7b8143350c80e
+MD5Sum: e07604c1d7313e373af767bd9a6788aa
+SHA256sum: d11024de8da7c2d1b623d8eaa0270a64b5d2fc9729973b251a7e01b4307c98e4
 Size: 892
-Filename: softcam-support_2-r0_all.ipk
+Filename: softcam-support_3-r0_all.ipk
 Source: softcam-support.bb
 Description: Start, stop and select softcams.
 OE: softcam-support
