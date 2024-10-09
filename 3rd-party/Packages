@@ -118,8 +118,8 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2m3u2bouquet
-Version: 1.8.4
-Description: e2 m3u 2bouquet
+Version: 1.8.5
+Description: e2m3u 2bouquet
 Section: extra
 Priority: optional
 Maintainer: Suls
@@ -129,9 +129,9 @@ OE: enigma2-plugin-extensions-e2m3u2bouquet
 Homepage: https://www.suls.co.uk/
 Depends: python3-image, python3-pillow
 Source: enigma2-plugin-extensions-e2m3u2bouquet.bb
-Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.8.4_all.ipk
-Size: 2282478
-MD5Sum: 0b01f1e742032438909af2fbe26e39e0
+Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.8.5_all.ipk
+Size: 2296718
+MD5Sum: f59d81c5796c296bc06d8ff62a89ffd9
 
 Package: enigma2-plugin-extensions-embydream
 Version: 1.3.7+git49+12c25be0+12c25be4c9-r74
@@ -519,6 +519,23 @@ Source: enigma2-plugins.bb
 Filename: enigma2-plugin-extensions-schiffe_7.5+gitr7737+5cf43630+5cf436378d-r8_dm920.ipk
 Size: 169950
 MD5Sum: 7bf9dd6c1e184387f61427436caf1499
+
+Package: enigma2-plugin-extensions-streamlinkproxy
+Version: 6.11.0
+Depends: python3-core, python3-ctypes, python3-exceptiongroup, python3-futures3, python3-isodate, python3-lxml, python3-misc, python3-outcome, python3-pkgutil, python3-pycountry, python3-pycryptodome, python3-pysocks, python3-requests, python3-shell, python3-singledispatch, python3-sortedcontainers, python3-trio, python3-websocket-client
+Section: devel/python
+Architecture: all
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 984113ae0f32c416027a68feb0e49923
+SHA256sum: 876ef78cb1efa199b18c9abcbf58071fbdefc801e49b499a830d53e35201b8c1
+Size: 746732
+Filename: enigma2-plugin-extensions-streamlinkproxy_6.11.0_all.ipk
+Source: streamlink_git.bb
+Description: CLI for extracting streams from various websites to a video player of your choosing
+OE: streamlink
+HomePage: https://github.com/streamlink/streamlink
+License: BSD-2-Clause
+Priority: optional
 
 Package: enigma2-plugin-extensions-sudoku
 Version: 8.0
