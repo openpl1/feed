@@ -991,18 +991,18 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-epgimport-rytec
-Version: 20230617-r0
+Version: 20241009-r0
 Replaces: enigma2-plugin-extensions-xmltvimport-rytec
 Conflicts: enigma2-plugin-extensions-xmltvimport-rytec
 Section: base
 Architecture: all
 Maintainer: Rytec forum @ forums.openpli.org
-MD5Sum: e2fa78fdbdf52b61daa5f60ed1635d70
-SHA256sum: 2ae21d2263ef2a6cf6340cd41813ee43aaf5985bc3242517bb593019bba9f294
-Size: 4778
-Filename: enigma2-plugin-extensions-epgimport-rytec_20230617-r0_all.ipk
+MD5Sum: 7db64be3236b5ae4725648784ad002ca
+SHA256sum: 70b4bb2cd230aa303bdc5a4b4fa9f283b9fc228ef7aeef94460f62be0c223ede
+Size: 4562
+Filename: enigma2-plugin-extensions-epgimport-rytec_20241009-r0_all.ipk
 Source: enigma2-plugin-extensions-epgimport-rytec.bb
-Description: enigma2-plugin-extensions-epgimport-rytec version 20230617-r0
+Description: enigma2-plugin-extensions-epgimport-rytec version 20241009-r0
 OE: enigma2-plugin-extensions-epgimport-rytec
 License: GPL-2.0-or-later
 Priority: optional
