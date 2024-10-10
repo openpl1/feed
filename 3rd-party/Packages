@@ -415,11 +415,11 @@ Package: enigma2-plugin-extensions-oaweather
 Version: 4.0
 Section: extra
 Architecture: cortexa15hf-neon-vfpv4
-Maintainer: jbleyel
-MD5Sum: 05fe111ea4815c08dd42e0ef9d939dec
-SHA256sum: dd060d653053a6b22443297e45173362e9bb8ab5ad59eea9437c826e57adad33
-Size: 986048
-Filename: enigma2-plugin-extensions-oaweather_3.0-r0_cortexa15hf-neon-vfpv4.ipk
+Maintainer: jbleyel, me
+MD5Sum: e34c44c0974f9714cbd04c33919ac022
+SHA256sum: b3949698a9bf0f13bb1cfadf353a790f79e00cd98287f3cec82cfc3e780773a5
+Size: 1086006
+Filename: enigma2-plugin-extensions-oaweather_4.0_all.ipk
 Source: enigma2-plugin-extensions-oaweather.bb
 Description: OAWeather Converter and Renderer to display Weather in Skin.
 OE: enigma2-plugin-extensions
@@ -777,7 +777,8 @@ Section: base
 Priority: required
 Architecture: all
 Maintainer: M.Hussein
-Description: XDREAMY is a New Vision Skin By Inspiron
+Recommends: enigma2-plugin-extensions-oaweather
+Description: xDreamy FHD skin a New Vision Skin By Inspiron
 Source: enigma2-plugin-skins-xDreamy.bb
 OE: enigma2-plugin-skins-xDreamy
 License: GPL-2.0-or-later
