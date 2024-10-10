@@ -771,6 +771,21 @@ MD5Sum: 835019ee4c25046c34c17e8ae7249adc
 SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
 Priority: optional
 
+Package: enigma2-plugin-skins-xDreamy
+Version: 3.7.0
+Section: base
+Priority: required
+Architecture: all
+Maintainer: M.Hussein
+Description: XDREAMY is a New Vision Skin By Inspiron
+Source: enigma2-plugin-skins-xDreamy.bb
+OE: enigma2-plugin-skins-xDreamy
+License: GPL-2.0-or-later
+Filename: enigma2-plugin-skins-xDreamy_3.7.0_all.ipk
+Size: 21954322
+MD5Sum: e602996170ba3b4f41d332c6a71f5cec
+SHA256sum: 8e48c944b3921286295bddca7b4ade96cde95f5a45f6e8f367f61eccd07ef240
+
 Package: enigma2-plugin-softcams-cccam
 Version: 2.3.9-r6
 Depends: libc6 (>= 2.40), libstdc++6 (>= 14.2.0), libxcrypt-compat, softcam-support
