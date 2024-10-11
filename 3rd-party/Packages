@@ -783,9 +783,9 @@ Source: enigma2-plugin-skins-xDreamy.bb
 OE: enigma2-plugin-skins-xDreamy
 License: GPL-2.0-or-later
 Filename: enigma2-plugin-skins-xdreamy_3.7.1_all.ipk
-Size: 21975898
-MD5Sum: b06b84092752a6d8f5317b15f973da13
-SHA256sum: 4f8eb44bed98d4693c2c2c1fc0aaa6419f7486a98f06862c81e0b7a36fbc3dd9
+Size: 21975908
+MD5Sum: a1eba51e0a1eb96cc3fbaa707ea56280
+SHA256sum: bc434763eea3d9595071938a262b329e54e8787df75b62dfbf42dce8b86c8b66
 
 Package: enigma2-plugin-softcams-cccam
 Version: 2.3.9-r6
