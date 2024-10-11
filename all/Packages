@@ -128,6 +128,22 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
+Package: cardserver-support
+Version: 1.0-r0
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: 9d64a9d24e4a93ac2d174a9763673f38
+SHA256sum: c0356425e454ec1e3ff8bc9ed61929ddf2ccb8ec78ce0324e3029cc8cf79e813
+Size: 886
+Filename: cardserver-support_1.0-r0_all.ipk
+Source: cardserver-support.bb
+Description: cardserver-support version 1.0-r0
+OE: cardserver-support
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: channelsettings-enigma2-meta-dbg
 Version: 1.0-r0
 Section: devel
@@ -4513,14 +4529,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
-Version: 1.0+git144+aae82f80+aae82f801f-r0
+Version: 1.0+git147+98a4ddd0+98a4dddcce-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: eab91d8a9fd94b7bcd8b83abb4bc6d46
-SHA256sum: efda0ede62717296e844b8ef43194829c25374f3a75bfeedce9b772db8787fb8
-Size: 622
-Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git144+aae82f80+aae82f801f-r0_all.ipk
+MD5Sum: 7ab800ee13f5edac8dd066f9887833e7
+SHA256sum: 23b5f6ba401b158dd5e141f896195c76da0edd4a42256231a60e38702059a85f
+Size: 620
+Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git147+98a4ddd0+98a4dddcce-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4529,15 +4545,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dev
-Version: 1.0+git144+aae82f80+aae82f801f-r0
-Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git144+aae82f80+aae82f801f-r0)
+Version: 1.0+git147+98a4ddd0+98a4dddcce-r0
+Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git147+98a4ddd0+98a4dddcce-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: a82f7d0b97cf642d6a7738516d9ce045
-SHA256sum: ad46dd40805c6e8c564b57a651cb2228e0799dfc2369eac6f459d53f7eaadbb5
+MD5Sum: ce2e5569db0c64cc87e0d025529fe1bd
+SHA256sum: 523fee471ee7c7bd0155e3f7e00dfb2b480b0c3a312d5d7e2e46fca95e74a92f
 Size: 656
-Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git144+aae82f80+aae82f801f-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git147+98a4ddd0+98a4dddcce-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4546,15 +4562,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv
-Version: 1.0+git144+aae82f80+aae82f801f-r0
+Version: 1.0+git147+98a4ddd0+98a4dddcce-r0
 Recommends: enigma2-plugin-extensions-tmdb
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9282a048b9335b49fa84f98a60af7a23
-SHA256sum: b6c28554574194611c6b3ecff28cd3d023638f3094a5115198b695c3af7fbe42
-Size: 96126
-Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git144+aae82f80+aae82f801f-r0_all.ipk
+MD5Sum: a537ca2bd53a989c3a02e39f7fbccd85
+SHA256sum: 24162dbf62f79c76133f2507b344484388710778428722a22ece9126305b5ef7
+Size: 99404
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git147+98a4ddd0+98a4dddcce-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -8971,14 +8987,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git802+fe3a55b0+fe3a55b058-3
+Version: 2+git803+0fb6b9c0+0fb6b9cf2f-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 9d176b2f6d6e6014a1e439fb414bf5ec
-SHA256sum: 70b91f4a35b951ace6d43ad970b435f2e0eab45198836420724ea7ecfa1c5127
-Size: 566
-Filename: tuxbox-common-dbg_2+git802+fe3a55b0+fe3a55b058-3_all.ipk
+MD5Sum: 99c7a919bb75401378a20bb170fab8a4
+SHA256sum: daa4731479f3f08d21c0c5f42f548561c7e298a5238b978cee6b9d1a271b2366
+Size: 568
+Filename: tuxbox-common-dbg_2+git803+0fb6b9c0+0fb6b9cf2f-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -8986,15 +9002,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git802+fe3a55b0+fe3a55b058-3
-Recommends: tuxbox-common (>= 2+git802+fe3a55b0+fe3a55b058-3), tuxbox-common (<< 2+git802+fe3a55b0+fe3a55b058-3.0), xz-dev
+Version: 2+git803+0fb6b9c0+0fb6b9cf2f-3
+Recommends: tuxbox-common (>= 2+git803+0fb6b9c0+0fb6b9cf2f-3), tuxbox-common (<< 2+git803+0fb6b9c0+0fb6b9cf2f-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 4703c4259295df6d1b5295cd7b5ec96c
-SHA256sum: d8b586d6bb8f93a0c5d0d134aa7f2623c987e4e392c193c1ee4c485bae83645b
-Size: 618
-Filename: tuxbox-common-dev_2+git802+fe3a55b0+fe3a55b058-3_all.ipk
+MD5Sum: 4a5736585c0ca6faaf561b4073b6f431
+SHA256sum: 63c72764271912f6989dbc02ae2d89ef54e25ed0a40fc40b3f0c2e5a6e7fc269
+Size: 620
+Filename: tuxbox-common-dev_2+git803+0fb6b9c0+0fb6b9cf2f-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9002,15 +9018,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git802+fe3a55b0+fe3a55b058-3
+Version: 2+git803+0fb6b9c0+0fb6b9cf2f-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 49c3c3c480894636c119d921b6882977
-SHA256sum: 1f6c441301bd6d74e3cc96e9d21b6294ba1a7ae970e0b2d570756712ef8fda33
-Size: 72706
-Filename: tuxbox-common_2+git802+fe3a55b0+fe3a55b058-3_all.ipk
+MD5Sum: ff73bbdd42511a5a3a68ec5c660fe6a2
+SHA256sum: 11d0b347f6ca308c5e69bf520df48e4b42b5c4be15f0d3d3e4ece2acc3678768
+Size: 72710
+Filename: tuxbox-common_2+git803+0fb6b9c0+0fb6b9cf2f-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
@@ -9354,15 +9370,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: wireless-regdb-static
-Version: 2024.07.04-r0
+Version: 2024.10.07-r0
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6cf38f89fe8d83cd1aca316c8668330
-SHA256sum: bc1d5dd1594d8edd7e30e5d1cedab7daec38aa2cb72691a0bb93190095b5faea
-Size: 4136
-Filename: wireless-regdb-static_2024.07.04-r0_all.ipk
-Source: wireless-regdb_2024.07.04.bb
+MD5Sum: 89d47dc54ada251cf92f6cd502d12cde
+SHA256sum: 1f31c77c08fc0637704586bb516ff066c4e4edd87176735bac79d599aab5e8c4
+Size: 4276
+Filename: wireless-regdb-static_2024.10.07-r0_all.ipk
+Source: wireless-regdb_2024.10.07.bb
 Description: Wireless Central Regulatory Domain Database
 OE: wireless-regdb
 HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
@@ -9370,17 +9386,17 @@ License: ISC
 Priority: optional
 
 Package: wireless-regdb
-Version: 2024.07.04-r0
+Version: 2024.10.07-r0
 Conflicts: wireless-regdb-static
 Suggests: crda
 Section: net
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4572d1ab9cf08f5f978686f5f58e2b6f
-SHA256sum: dfb5899230dff2a36587fd72b3fa9935beeee707a3979a423e7de6ab06545346
-Size: 4312
-Filename: wireless-regdb_2024.07.04-r0_all.ipk
-Source: wireless-regdb_2024.07.04.bb
+MD5Sum: 4bcb62e1a16a9f47ce2ce72dfec0d2d1
+SHA256sum: 510b14506354ed0f7d3db7c42c5ac057f182b02d012df3f02ecf43883e0130d2
+Size: 4512
+Filename: wireless-regdb_2024.10.07-r0_all.ipk
+Source: wireless-regdb_2024.10.07.bb
 Description: Wireless Central Regulatory Domain Database
 OE: wireless-regdb
 HomePage: https://wireless.wiki.kernel.org/en/developers/regulatory/crda
