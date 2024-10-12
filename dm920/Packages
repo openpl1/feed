@@ -1327,13 +1327,13 @@ Priority: optional
 
 Package: flash-scripts
 Version: 1.2+git162+81ff8d40+81ff8d40bb-r1
-Depends: coreutils-realpath, libc6 (>= 2.40+git0+7073164add), util-linux-sfdisk
+Depends: coreutils-realpath, curl, libc6 (>= 2.40+git0+7073164add), tpm-ca, util-linux-sfdisk
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 627d48a6782b82aabe97149c9064d128
-SHA256sum: b4352fab7279fafbeffd3cd180b5ebd512f569f93ce5412242aa79dfc718db64
-Size: 27774
+MD5Sum: 2670110418b26917364558b67a76f433
+SHA256sum: 0fd17bdb4c6497aa6b70f079946f63a44756ca6b98b784c1e5f852f2fb79f6b8
+Size: 28012
 Filename: flash-scripts_1.2+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.2.bb
 Description: Command-line tools to flash and recover your Dreambox
@@ -21515,13 +21515,13 @@ Priority: optional
 
 Package: recovery-dev
 Version: 1.2+git162+81ff8d40+81ff8d40bb-r1
-Recommends: coreutils-realpath-dev, e2fsprogs-mke2fs-dev, flash-scripts-dev, glibc-dev, gpgv-dev, gptfdisk-dev, initscripts-dev, libudev-dev, pigz-dev, recovery (= 1.2+git162+81ff8d40+81ff8d40bb-r1), udev-dev, update-rc.d-dev, util-linux-mount-dev, util-linux-sfdisk-dev
+Recommends: coreutils-realpath-dev, curl-dev, e2fsprogs-mke2fs-dev, flash-scripts-dev, glibc-dev, gpgv-dev, gptfdisk-dev, initscripts-dev, libudev-dev, pigz-dev, recovery (= 1.2+git162+81ff8d40+81ff8d40bb-r1), tpm-ca-dev, udev-dev, update-rc.d-dev, util-linux-blkid-dev, util-linux-mount-dev, util-linux-sfdisk-dev
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff1608ed2a67980933156a43669e2a2c
-SHA256sum: 63b4b73596dd717f9c55b1044347f6930fa0378675ae35667cd6a78196a38f8f
-Size: 764
+MD5Sum: 68d223366dd12e05b43d2f3a3478fc51
+SHA256sum: 29b46292749ade6b3ebf82ac2a5467417e8ddfaa9555ef1a47fe5d0be6824344
+Size: 780
 Filename: recovery-dev_1.2+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.2.bb
 Description: Command-line tools to flash and recover your Dreambox - Development files
@@ -21532,14 +21532,14 @@ Priority: optional
 
 Package: recovery
 Version: 1.2+git162+81ff8d40+81ff8d40bb-r1
-Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, libc6 (>= 2.40+git0+7073164add), libudev1 (>= 3.2.14), pigz, util-linux-mount
+Depends: e2fsprogs-mke2fs, flash-scripts, gpgv, gptfdisk, libc6 (>= 2.40+git0+7073164add), libudev1 (>= 3.2.14), pigz, util-linux-blkid, util-linux-mount
 Recommends: update-rc.d
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d81782b3168204fd65371fdcb4c88091
-SHA256sum: 6860734bd491042ceaf9524e405549c3386ff2cef599f551d139add942be65d3
-Size: 28700
+MD5Sum: 3e91c03da858a3a88880e567da0e6fb7
+SHA256sum: e9f0b6c703b6e2a106694cfe99c262bfc03410c10f2857c6eac280aecc3b9df4
+Size: 28462
 Filename: recovery_1.2+git162+81ff8d40+81ff8d40bb-r1_dm920.ipk
 Source: recovery_1.2.bb
 Description: Command-line tools to flash and recover your Dreambox

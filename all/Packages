@@ -128,22 +128,6 @@ HomePage: http://packages.debian.org/sid/ca-certificates
 License: GPL-2.0-or-later & MPL-2.0
 Priority: optional
 
-Package: cardserver-support
-Version: 1.0-r0
-Recommends: update-rc.d
-Section: base
-Architecture: all
-Maintainer: PLi team
-MD5Sum: 9d64a9d24e4a93ac2d174a9763673f38
-SHA256sum: c0356425e454ec1e3ff8bc9ed61929ddf2ccb8ec78ce0324e3029cc8cf79e813
-Size: 886
-Filename: cardserver-support_1.0-r0_all.ipk
-Source: cardserver-support.bb
-Description: cardserver-support version 1.0-r0
-OE: cardserver-support
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: channelsettings-enigma2-meta-dbg
 Version: 1.0-r0
 Section: devel
@@ -621,14 +605,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 1.26-20241012-r3
+Version: 1.26-20241012-1-g0aa871e-r3
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8c6e1492543c3df9280819eb37cc6720
-SHA256sum: d950ef0a1682a0ac1c9e1e64e0ed2450445f35126b79df4c9240e4e7f21294a0
-Size: 616
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.26-20241012-r3_all.ipk
+MD5Sum: eaff280a34adcc355c57121e5f946ed2
+SHA256sum: accc5220ece675f4ccf2b6e3039b2fd4aa0e59e030e4789a02448a178f7924b5
+Size: 624
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.26-20241012-1-g0aa871e-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -637,15 +621,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 1.26-20241012-r3
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.26-20241012-r3), python3-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.26-20241012-1-g0aa871e-r3
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.26-20241012-1-g0aa871e-r3), python3-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 2229edb2a861d6ba3e661f37babfd83a
-SHA256sum: 0ed394e0880d95304d61b45a35554df33801a3dc3a1f5fed51f0b3a62ad00cef
-Size: 676
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.26-20241012-r3_all.ipk
+MD5Sum: 4560440eea0c6fd92fbd53c9fb20fb76
+SHA256sum: 1f05ec9dcd3de90b55510d55d051091d61e21685b119e75a91c1d111b22db5a5
+Size: 684
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.26-20241012-1-g0aa871e-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -654,15 +638,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 1.26-20241012-r3
+Version: 1.26-20241012-1-g0aa871e-r3
 Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 719fd8f0b552e7e5a423f8554977c4b9
-SHA256sum: 0874241cb627bbfb031e5d760c0f495259c98a712ace05dbde4480ff072d95c4
-Size: 1286956
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.26-20241012-r3_all.ipk
+MD5Sum: 2a132cfdecf48c0446bb8b852c07ea90
+SHA256sum: befb6e8ab36c986da427f551cefdebaa08b55dcc810a5e658ded71aba1606949
+Size: 1287160
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.26-20241012-1-g0aa871e-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -4461,6 +4445,22 @@ Source: enigma2-plugin-skins-simple-gray.bb
 Description: enigma2-plugin-skins-simple-gray version 1.0+git-r0
 OE: enigma2-plugin-skins-simple-gray
 License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-softcams-cardserver-support
+Version: 1.0-r0
+Recommends: update-rc.d
+Section: base
+Architecture: all
+Maintainer: PLi team
+MD5Sum: da87075d93da1a199596d71b5402caa6
+SHA256sum: 90ed03754d439a2071bcd9db3b7e72ce0cf25e2c6fe74a21f7d3ae9ca22dc946
+Size: 904
+Filename: enigma2-plugin-softcams-cardserver-support_1.0-r0_all.ipk
+Source: enigma2-plugin-softcams-cardserver-support.bb
+Description: enigma2-plugin-softcams-cardserver-support version 1.0-r0
+OE: enigma2-plugin-softcams-cardserver-support
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-automaticcleanup
