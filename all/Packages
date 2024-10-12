@@ -621,14 +621,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dbg
-Version: 1.25-20240915-r3
+Version: 1.26-20241012-r3
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9efe87bd13f778be4d35f5af547cd522
-SHA256sum: d60f8696e56cd72fe5376ad6fdcb9fdf3856423d41c5ad50967dec77b0149c38
+MD5Sum: 8c6e1492543c3df9280819eb37cc6720
+SHA256sum: d950ef0a1682a0ac1c9e1e64e0ed2450445f35126b79df4c9240e4e7f21294a0
 Size: 616
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.25-20240915-r3_all.ipk
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_1.26-20241012-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -637,15 +637,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream-dev
-Version: 1.25-20240915-r3
-Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.25-20240915-r3), python3-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.26-20241012-r3
+Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 1.26-20241012-r3), python3-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4b6786e3fc6e661b474208c489f86d7a
-SHA256sum: cd8561c6e3782804d2b1581de3b2861d288e111bc8c1a58e318477d019d2034c
+MD5Sum: 2229edb2a861d6ba3e661f37babfd83a
+SHA256sum: 0ed394e0880d95304d61b45a35554df33801a3dc3a1f5fed51f0b3a62ad00cef
 Size: 676
-Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.25-20240915-r3_all.ipk
+Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_1.26-20241012-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Development files
 OE: enigma2-plugin-extensions-bouquetmakerxtream
@@ -654,15 +654,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-bouquetmakerxtream
-Version: 1.25-20240915-r3
+Version: 1.26-20241012-r3
 Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8ec3673264a2253bb8afa290405def9d
-SHA256sum: 752e2f3d41c28756ca9c77d11be0cc719add0a7dd68d8ed93cfb2447b65eb43e
-Size: 1287472
-Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.25-20240915-r3_all.ipk
+MD5Sum: 719fd8f0b552e7e5a423f8554977c4b9
+SHA256sum: 0874241cb627bbfb031e5d760c0f495259c98a712ace05dbde4480ff072d95c4
+Size: 1286956
+Filename: enigma2-plugin-extensions-bouquetmakerxtream_1.26-20241012-r3_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
 OE: enigma2-plugin-extensions-bouquetmakerxtream
