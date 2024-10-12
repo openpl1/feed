@@ -264,15 +264,15 @@ Size: 9286320
 MD5Sum: 8f8d6eba38988839a78c2467e63c5beb
 
 Package: enigma2-plugin-extensions-hdfradio
-Version: 2.14.4
+Version: 2.16.0
 Description: Webradio Plugin
 Section: base
 Priority: required
 Maintainer: koivo & oerlgrey
-MD5Sum: 4ab88155591dcde0f7fc1aab420c3542
-SHA256sum: c4db7d26d4c2884057928e1839c9b3ab29a123eaeb0efd0a6bae9fdcb1dcef88
-Size: 3909188
-Filename: enigma2-plugin-extensions-hdfradio_2.14.4_py3_3.12_cortexa15hf-neon-vfpv4.ipk
+MD5Sum: 06f3a921f2a0aa0eadb47a16f5999f46
+SHA256sum: 31a570374fc665c5d01bacba143be126b22f6290bbd67621832adf3d28200098
+Size: 3956318
+Filename: enigma2-plugin-extensions-hdfradio_2.16.0_py3_3.12.6_cortexa15hf-neon-vfpv4.ipk
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions
