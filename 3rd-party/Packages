@@ -771,6 +771,22 @@ MD5Sum: 835019ee4c25046c34c17e8ae7249adc
 SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
 Priority: optional
 
+Package: enigma2-plugin-skins-xdreamy
+Version: 3.7.1
+Section: base
+Priority: required
+Architecture: all
+Maintainer: M.Hussein, me
+Recommends: enigma2-plugin-extensions-oaweather
+Description: xDreamy FHD skin a New Vision Skin By Inspiron
+Source: enigma2-plugin-skins-xDreamy.bb
+OE: enigma2-plugin-skins-xDreamy
+License: GPL-2.0-or-later
+Filename: enigma2-plugin-skins-xdreamy_3.7.1_all.ipk
+Size: 21025698
+MD5Sum: ff2c18721b2ea26dfa96d26241c56237
+SHA256sum: 49ad23031190a4c9054c36c8d087037e85f25a84e07b55aa29bb0d565d4f67c6
+
 Package: enigma2-plugin-softcams-cccam
 Version: 2.3.9-r6
 Depends: libc6 (>= 2.40), libstdc++6 (>= 14.2.0), libxcrypt-compat, softcam-support
