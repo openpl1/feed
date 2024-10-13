@@ -330,20 +330,6 @@ HomePage: https://github.com/kiddac
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-linuxsat-panel
-Version: 2.3
-Section: extra
-Priority: optional
-Architecture: all
-Maintainer: linuxsat-support, @lululla, @masterG, @oktus, @pcd
-Description: LinuxSat Panel Addons
-Source: enigma2-plugin-extensions-linuxsat-panel.bb
-Homepage: https://github.com/Belfagor2005/LinuxsatPanel
-OE: enigma2-plugin-extensions
-Filename: enigma2-plugin-extensions-linuxsat-panel_2.3_all.ipk
-Size: 8201968
-MD5Sum: 04c3d5c9fc2bbfed568a8b472c49376e
-
 Package: enigma2-plugin-extensions-lottoextended
 Version: 8.0
 Description: Lotto Extended
