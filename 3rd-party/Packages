@@ -772,7 +772,7 @@ SHA256sum: 2568f27b47e71e5f1a7156dccece3078e9bc60e496f3582d701c603e92ccb786
 Priority: optional
 
 Package: enigma2-plugin-skins-xdreamy
-Version: 3.7.1
+Version: 3.7.2
 Section: base
 Priority: required
 Architecture: all
@@ -782,10 +782,10 @@ Description: xDreamy FHD skin a New Vision Skin By Inspiron
 Source: enigma2-plugin-skins-xDreamy.bb
 OE: enigma2-plugin-skins-xDreamy
 License: GPL-2.0-or-later
-Filename: enigma2-plugin-skins-xdreamy_3.7.1_all.ipk
-Size: 21024080
-MD5Sum: c87f3ff28d0f138b63618ad05528ea23
-SHA256sum: fcbbde1c841f02a8075eed34ed265fa16d58a8bde32150c84994a9cc4d55e044
+Filename: enigma2-plugin-skins-xdreamy_3.7.2_all.ipk
+Size: 21028856
+MD5Sum: 1af42a50d369e6a991e41ff338aa5a26
+SHA256sum: 93f73e0074aa7b426c8ca6c64123d2b9107afc3b70aeedf6159418775df76b5b
 
 Package: enigma2-plugin-softcams-cccam
 Version: 2.3.9-r6
