@@ -118,7 +118,7 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2m3u2bouquet
-Version: 1.8.5
+Version: 1.8.7
 Description: e2m3u 2bouquet
 Section: extra
 Priority: optional
@@ -129,9 +129,9 @@ OE: enigma2-plugin-extensions-e2m3u2bouquet
 Homepage: https://www.suls.co.uk/
 Depends: python3-image, python3-pillow
 Source: enigma2-plugin-extensions-e2m3u2bouquet.bb
-Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.8.5_all.ipk
-Size: 2296718
-MD5Sum: f59d81c5796c296bc06d8ff62a89ffd9
+Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.8.7_all.ipk
+Size: 2335944
+MD5Sum: 4eed03401d48ee0018a2afd798df9a03
 
 Package: enigma2-plugin-extensions-embydream
 Version: 1.3.7+git49+12c25be0+12c25be4c9-r74
