@@ -313,9 +313,9 @@ Version: homebuild-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: d1b6df2c57816a0a86591f1e950cdf3a
-SHA256sum: 354c8d45ea5def43d2f503a8e5cc0c50f13beb5dc6452f4624f3eb93e619a8ee
-Size: 1284
+MD5Sum: 9086726b0f763292ac2d34d2d3e4a9df
+SHA256sum: c943721d7cf75a10751d6297a59282c8a6b27eeda93441eb088e12cefde99505
+Size: 1286
 Filename: enigma-info_homebuild-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
