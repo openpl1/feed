@@ -19,14 +19,14 @@ Size: 926456
 MD5Sum: 61825bd23b1c735ecc9c5254768157a1
 
 Package: enigma2-plugin-extensions-ajpanel
-Version: v10.0.0
+Version: v10.1.0
 Section: base
 Architecture: all
 Maintainer: AMAJamry
-MD5Sum: 10ad8159a6ecd79854dc7004657f21af
-SHA256sum: 362a24924830fe725337e879d0b1075252622b0ebcbf760468c61d816c96542a
-Size: 495476
-Filename: enigma2-plugin-extensions-ajpanel_v10.0.0_all.ipk
+MD5Sum: 7bb4677c62fc9a1cffb0f708d38c1faa
+SHA256sum: 4198e9ddb28a274b15106b8f99dc407bd2ed2b5d682ec09eb39028641eabcd60
+Size: 510098
+Filename: enigma2-plugin-extensions-ajpanel_v10.1.0_all.ipk
 Depends: python3, python3-requests, python3-imaging, python3-pillow
 Recommends: xz, zip, p7zip, unrar, bzip2, ffmpeg
 Source: enigma2-plugin-extensions-ajpanel.bb
