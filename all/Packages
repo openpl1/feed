@@ -4575,14 +4575,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
-Version: 1.0+git168+b67ed740+b67ed743e9-r0
+Version: 1.0+git169+afa02a50+afa02a57ce-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: de667fea0f606238798bf325365db624
-SHA256sum: 5bcfd1081b2517e9868e2ae41fa9f097d3a1b85d3306aa03a093bcba661bc3d1
+MD5Sum: 5056fd30bb26fa46ed2e1f30452c0864
+SHA256sum: 9a08d028564e030d5d3d6b2a627d159587b5add87bca2b65721b84d0d24eada7
 Size: 622
-Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git168+b67ed740+b67ed743e9-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git169+afa02a50+afa02a57ce-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4591,15 +4591,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dev
-Version: 1.0+git168+b67ed740+b67ed743e9-r0
-Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git168+b67ed740+b67ed743e9-r0)
+Version: 1.0+git169+afa02a50+afa02a57ce-r0
+Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git169+afa02a50+afa02a57ce-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9e5da72ed99c035a4dd734de179cbc4d
-SHA256sum: 297890ae8ee1bfb7294a937cb5da161dd65bf78399159d53b9b7ca760722787f
-Size: 658
-Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git168+b67ed740+b67ed743e9-r0_all.ipk
+MD5Sum: 530e9f89450e1554d0b9bbdcf45751bb
+SHA256sum: c3c66f7ece4eea5cee22ac33e0c1e5408e522541d2d4aaea2f3f68a5fc267aaa
+Size: 656
+Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git169+afa02a50+afa02a57ce-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4608,15 +4608,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv
-Version: 1.0+git168+b67ed740+b67ed743e9-r0
+Version: 1.0+git169+afa02a50+afa02a57ce-r0
 Recommends: enigma2-plugin-extensions-tmdb
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 0f30dc1af65e33980172a821b40f0f50
-SHA256sum: eeca05d79fca2df720312224c1c7b98f5fb41a1687dbb05af6f4c8266b47839a
-Size: 111520
-Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git168+b67ed740+b67ed743e9-r0_all.ipk
+MD5Sum: 1d4ed1c933fcc41ccdd3e851538d5348
+SHA256sum: 3caf3595dee0e51fe8dbc6bfe7ba472cb3e38176643383ceebf50f7b7b93cfae
+Size: 111566
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git169+afa02a50+afa02a57ce-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
