@@ -4499,12 +4499,12 @@ Recommends: update-rc.d
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: da87075d93da1a199596d71b5402caa6
-SHA256sum: 90ed03754d439a2071bcd9db3b7e72ce0cf25e2c6fe74a21f7d3ae9ca22dc946
-Size: 904
+MD5Sum: 06c711977dd196e71f8c1ddc7d446415
+SHA256sum: 12fe4e6c8defdf415a930fe6786b60958451ad893514340ebba19c2041f35f8f
+Size: 908
 Filename: enigma2-plugin-softcams-cardserver-support_1.0-r0_all.ipk
 Source: enigma2-plugin-softcams-cardserver-support.bb
-Description: enigma2-plugin-softcams-cardserver-support version 1.0-r0
+Description: Cardserver add-on
 OE: enigma2-plugin-softcams-cardserver-support
 License: GPL-2.0-or-later
 Priority: optional
