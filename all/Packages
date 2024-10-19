@@ -1294,14 +1294,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.4+git134+32caa050+32caa05af2-r0
+Version: 2.4+git137+5e5a2bb0+5e5a2bb9b7-r0
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 98b8815328c3a465a0b1507d7ee53e36
-SHA256sum: 9d29b1d4aff5c7f1f5f3e3bdaeb9fdfe1a27f443d94205e318a377b1f9a29844
-Size: 590
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.4+git134+32caa050+32caa05af2-r0_all.ipk
+MD5Sum: 00dd79c32044c6e8c3ed6d39b39b830f
+SHA256sum: 3c4c33dea88d3c651dc24df052e0562cdfe970d28cbf0f62b2a9f56f8905ee99
+Size: 588
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.4+git137+5e5a2bb0+5e5a2bb9b7-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat panel addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1309,15 +1309,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.4+git134+32caa050+32caa05af2-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.4+git134+32caa050+32caa05af2-r0)
+Version: 2.4+git137+5e5a2bb0+5e5a2bb9b7-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.4+git137+5e5a2bb0+5e5a2bb9b7-r0)
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 039efde5e0fc4ad465d6099a7ce8fb3b
-SHA256sum: 4316596ab151ecb56d3ddc7c1f7d173c2df3fc2d9b6e23172868f0b36ccb4763
+MD5Sum: 71085454d0868638130afd41947f077f
+SHA256sum: 37ac08b63d9d4c5c0de85cb14b8ab8e08c8798a19cf7b757c162b796aebebdf0
 Size: 624
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.4+git134+32caa050+32caa05af2-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.4+git137+5e5a2bb0+5e5a2bb9b7-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat panel addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1325,14 +1325,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.4+git134+32caa050+32caa05af2-r0
+Version: 2.4+git137+5e5a2bb0+5e5a2bb9b7-r0
 Section: extra
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 536e23d7cc95e4d754755617bed074e2
-SHA256sum: 7c43b2909f72d378deecdce19300fc62bdcab1370c5c94fa73c722791c0245e2
-Size: 7762554
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.4+git134+32caa050+32caa05af2-r0_all.ipk
+MD5Sum: 1a63ba0a22ee1f186c0f892d403071e2
+SHA256sum: 9e7cef1838642e921247fe1245ee289cff6b0286676c790a2289b534d873cdeb
+Size: 7762104
+Filename: enigma2-plugin-extensions-linuxsatpanel_2.4+git137+5e5a2bb0+5e5a2bb9b7-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat panel addon
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -4575,14 +4575,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dbg
-Version: 1.0+git167+85352510+8535251014-r0
+Version: 1.0+git168+b67ed740+b67ed743e9-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: a417912dfd7feeaee784150c48a54501
-SHA256sum: 0c1c78512b05d5af9535b65d0f5f99cfa38d137868c2c7716b3f1e6a22c92309
+MD5Sum: de667fea0f606238798bf325365db624
+SHA256sum: 5bcfd1081b2517e9868e2ae41fa9f097d3a1b85d3306aa03a093bcba661bc3d1
 Size: 622
-Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git167+85352510+8535251014-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git168+b67ed740+b67ed743e9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4591,15 +4591,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv-dev
-Version: 1.0+git167+85352510+8535251014-r0
-Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git167+85352510+8535251014-r0)
+Version: 1.0+git168+b67ed740+b67ed743e9-r0
+Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git168+b67ed740+b67ed743e9-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 0b61705b9528c800fdff22a2ea4109bd
-SHA256sum: f2013928c5043c271ba11a683581b0c19121f15b19afa891353c2a503a6bee50
+MD5Sum: 9e5da72ed99c035a4dd734de179cbc4d
+SHA256sum: 297890ae8ee1bfb7294a937cb5da161dd65bf78399159d53b9b7ca760722787f
 Size: 658
-Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git167+85352510+8535251014-r0_all.ipk
+Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git168+b67ed740+b67ed743e9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -4608,15 +4608,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-m3uiptv
-Version: 1.0+git167+85352510+8535251014-r0
+Version: 1.0+git168+b67ed740+b67ed743e9-r0
 Recommends: enigma2-plugin-extensions-tmdb
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9260ebb543d7eea16ed32a2179bbce05
-SHA256sum: 6af38a79894b94f31b3d6874a6fc78a424aa7ca53d6193597ef4e86564b4aa81
-Size: 107386
-Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git167+85352510+8535251014-r0_all.ipk
+MD5Sum: 0f30dc1af65e33980172a821b40f0f50
+SHA256sum: eeca05d79fca2df720312224c1c7b98f5fb41a1687dbb05af6f4c8266b47839a
+Size: 111520
+Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git168+b67ed740+b67ed743e9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
 Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
 OE: enigma2-plugin-systemplugins-m3uiptv
@@ -9033,14 +9033,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git810+8fc08a80+8fc08a8d24-3
+Version: 2+git811+6671cc70+6671cc7430-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 374ee7d44275572c4ababaf023b8fa92
-SHA256sum: 9e3315637cbd402dfa18fc54c7c1df10cb0949073c53abec9a3a978a7babd4b9
-Size: 566
-Filename: tuxbox-common-dbg_2+git810+8fc08a80+8fc08a8d24-3_all.ipk
+MD5Sum: bff4efa537102c582118ef3c2e5ab275
+SHA256sum: ec54e80041b801c3935cdc935813d48289aa6be9dfcbe6c11c2ae9adb4ac8494
+Size: 568
+Filename: tuxbox-common-dbg_2+git811+6671cc70+6671cc7430-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -9048,15 +9048,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git810+8fc08a80+8fc08a8d24-3
-Recommends: tuxbox-common (>= 2+git810+8fc08a80+8fc08a8d24-3), tuxbox-common (<< 2+git810+8fc08a80+8fc08a8d24-3.0), xz-dev
+Version: 2+git811+6671cc70+6671cc7430-3
+Recommends: tuxbox-common (>= 2+git811+6671cc70+6671cc7430-3), tuxbox-common (<< 2+git811+6671cc70+6671cc7430-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 7005842bdca38e9b6fd2b4b5e2fca494
-SHA256sum: 73d6807057791b68a312bcc1ca7ce6cef8397e57e480e5667e5e3316df2a3451
-Size: 620
-Filename: tuxbox-common-dev_2+git810+8fc08a80+8fc08a8d24-3_all.ipk
+MD5Sum: c198592a188a408da0e17bdcd187ef67
+SHA256sum: 03b3f6c796b586efe7cec08c6caf488542a0367663e3e9cb49e8e9095b73ee7b
+Size: 618
+Filename: tuxbox-common-dev_2+git811+6671cc70+6671cc7430-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -9064,15 +9064,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git810+8fc08a80+8fc08a8d24-3
+Version: 2+git811+6671cc70+6671cc7430-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d2e540835d014238598720ddc89d7440
-SHA256sum: 6f9c2152cfd5bab0b7e7ecc1dc6f8799c0d6736c64a8db04a880267097637ace
-Size: 72694
-Filename: tuxbox-common_2+git810+8fc08a80+8fc08a8d24-3_all.ipk
+MD5Sum: 4c2dca75b18a565c17f60c56b8ce1144
+SHA256sum: 2a1820c1eae200047c011796a3ceaa3300d790f70c88aaac20f1a9ec07d7c006
+Size: 72696
+Filename: tuxbox-common_2+git811+6671cc70+6671cc7430-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
