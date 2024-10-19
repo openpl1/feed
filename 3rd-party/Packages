@@ -727,6 +727,21 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-pdreamy-fhd
+Version: 1.0-r4
+Section: base
+Architecture: all
+Maintainer: 
+MD5Sum: 38c0d76dfc986327bf4e943b985f1792
+SHA256sum: 74918218846f2f2950db34b969d7b78af9dcd40f1fc618681b131a6eac7c520b
+Size: 1291866
+Filename: enigma2-plugin-skins-pdreamy-fhd_1.0-r4_all.ipk
+Source: enigma2-plugin-skins-pdreamy-fhd.bb
+Description: Skin pDreamy-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-premium-fhd-blue
 Version: 2.7
 Section: base
