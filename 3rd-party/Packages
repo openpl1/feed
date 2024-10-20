@@ -757,6 +757,21 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-pli-fullnight-hd-dr-sat
+Version: 0.1
+Description: Skin PLi FullNightHD - FHD skin mod by dr-sat
+Section: base
+Priority: optional
+Maintainer: littlesat, dr-sat
+Recommends: enigma2-plugin-extensions-weatherplugin
+License: Proprietary
+Architecture: all
+OE: enigma2-plugin-skins
+Source: enigma2-plugin-skins-pli-fullnight-hd-dr-sat.bb
+Filename: enigma2-plugin-skins-pli-fullnight-hd-dr-sat_0.1_all.ipk
+Size: 543770
+MD5Sum: f92fdd2688a450144d9c2e4f74a64078
+
 Package: enigma2-plugin-skins-premium-fhd-blue
 Version: 2.7
 Section: base
