@@ -1293,52 +1293,6 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.5+git143+75dcb600+75dcb60330-r0
-Section: devel
-Architecture: all
-Maintainer: www.linuxsat-support.com
-MD5Sum: 5adb55c59d0cdc59183ab9d8432ad729
-SHA256sum: 72b932d905ce96da9c0e77613acf9b262da10b69337323c626fd9e4100981e61
-Size: 590
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.5+git143+75dcb600+75dcb60330-r0_all.ipk
-Source: enigma2-plugin-extensions-linuxsatpanel.bb
-Description: linuxsat panel addon - Debugging files
-OE: enigma2-plugin-extensions-linuxsatpanel
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.5+git143+75dcb600+75dcb60330-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.5+git143+75dcb600+75dcb60330-r0)
-Section: devel
-Architecture: all
-Maintainer: www.linuxsat-support.com
-MD5Sum: 27c7bdda864d58739a14015f90dd48b0
-SHA256sum: cc7bfb2f076863051485fe7344dc327673a7114feb9701dfb80bf5e1ffbddaba
-Size: 624
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.5+git143+75dcb600+75dcb60330-r0_all.ipk
-Source: enigma2-plugin-extensions-linuxsatpanel.bb
-Description: linuxsat panel addon - Development files
-OE: enigma2-plugin-extensions-linuxsatpanel
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.5+git143+75dcb600+75dcb60330-r0
-Section: extra
-Architecture: all
-Maintainer: www.linuxsat-support.com
-MD5Sum: 0b50474fa5726567f42d77b51db0ea28
-SHA256sum: f1ae84dd854ec9dd9a7227be0cc7b877817ccaabde45a190ce2420bb5bf45f06
-Size: 7794154
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.5+git143+75dcb600+75dcb60330-r0_all.ipk
-Source: enigma2-plugin-extensions-linuxsatpanel.bb
-Description: linuxsat panel addon
-OE: enigma2-plugin-extensions-linuxsatpanel
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-extensions-logomanager
 Version: git5744+054301c0+054301cea8-r0
 Depends: enigma2-plugins
