@@ -758,7 +758,7 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-fullnight-hd-dr-sat
-Version: 0.1
+Version: 1.0
 Description: Skin PLi FullNightHD - FHD skin mod by dr-sat
 Section: base
 Priority: optional
@@ -768,9 +768,9 @@ License: Proprietary
 Architecture: all
 OE: enigma2-plugin-skins
 Source: enigma2-plugin-skins-pli-fullnight-hd-dr-sat.bb
-Filename: enigma2-plugin-skins-pli-fullnight-hd-dr-sat_0.1_all.ipk
-Size: 543770
-MD5Sum: f92fdd2688a450144d9c2e4f74a64078
+Filename: enigma2-plugin-skins-pli-fullnight-hd-dr-sat_1.0_all.ipk
+Size: 579114
+MD5Sum: 3ac183fcbbaf1a6daa2b755357f9ac94
 
 Package: enigma2-plugin-skins-premium-fhd-blue
 Version: 2.7
