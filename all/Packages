@@ -1294,14 +1294,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dbg
-Version: 2.5+git143+75dcb600+75dcb60330-r0
+Version: 2.5+git148+e3132bd0+e3132bdc6f-r0
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 5adb55c59d0cdc59183ab9d8432ad729
-SHA256sum: 72b932d905ce96da9c0e77613acf9b262da10b69337323c626fd9e4100981e61
+MD5Sum: cb17804a533114e375efd7f8e8036e18
+SHA256sum: ef573f522a9277f26545b690bba9f67014651e22a5c26d2b80035d162db62671
 Size: 590
-Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.5+git143+75dcb600+75dcb60330-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dbg_2.5+git148+e3132bd0+e3132bdc6f-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat panel addon - Debugging files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1309,15 +1309,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel-dev
-Version: 2.5+git143+75dcb600+75dcb60330-r0
-Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.5+git143+75dcb600+75dcb60330-r0)
+Version: 2.5+git148+e3132bd0+e3132bdc6f-r0
+Recommends: enigma2-plugin-extensions-linuxsatpanel (= 2.5+git148+e3132bd0+e3132bdc6f-r0)
 Section: devel
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 27c7bdda864d58739a14015f90dd48b0
-SHA256sum: cc7bfb2f076863051485fe7344dc327673a7114feb9701dfb80bf5e1ffbddaba
+MD5Sum: de422c4cac2e540e2c60efb0d5f79d7e
+SHA256sum: 31f55cf08ac0f11a9fb16cc18544100088823c8ee43153f0c13b56c5d03d0fe5
 Size: 624
-Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.5+git143+75dcb600+75dcb60330-r0_all.ipk
+Filename: enigma2-plugin-extensions-linuxsatpanel-dev_2.5+git148+e3132bd0+e3132bdc6f-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat panel addon - Development files
 OE: enigma2-plugin-extensions-linuxsatpanel
@@ -1325,14 +1325,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-linuxsatpanel
-Version: 2.5+git143+75dcb600+75dcb60330-r0
+Version: 2.5+git148+e3132bd0+e3132bdc6f-r0
 Section: extra
 Architecture: all
 Maintainer: www.linuxsat-support.com
-MD5Sum: 0b50474fa5726567f42d77b51db0ea28
-SHA256sum: f1ae84dd854ec9dd9a7227be0cc7b877817ccaabde45a190ce2420bb5bf45f06
-Size: 7794154
-Filename: enigma2-plugin-extensions-linuxsatpanel_2.5+git143+75dcb600+75dcb60330-r0_all.ipk
+MD5Sum: 532a507a67c4f5023431e84369fd31d6
+SHA256sum: 9bfef987fb899722b2011f37aba5e815be3a4afff3aba0883673e7bf78c46195
+Size: 7795250
+Filename: enigma2-plugin-extensions-linuxsatpanel_2.5+git148+e3132bd0+e3132bdc6f-r0_all.ipk
 Source: enigma2-plugin-extensions-linuxsatpanel.bb
 Description: linuxsat panel addon
 OE: enigma2-plugin-extensions-linuxsatpanel
