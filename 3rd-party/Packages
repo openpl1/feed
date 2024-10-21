@@ -538,6 +538,23 @@ HomePage: https://github.com/streamlink/streamlink
 License: BSD-2-Clause
 Priority: optional
 
+Package: enigma2-plugin-extensions-subssupport
+Version: 1.7.0-r6
+Depends: python3-codecs, python3-compression, python3-difflib, python3-rarfile, python3-xmlrpc, unrar
+Section: base
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c2560c185adc5a208f92a65cae1f7484
+SHA256sum: 0d739c82a9eeff0b87d019082d0cbdacabd14312fb39c5d913dae4b78711a382
+Size: 780172
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r6-py3_all.ipk
+Source: enigma2-plugin-extensions-subssupport.bb
+Description: Collection of enigma2 subtitles plugins
+OE: enigma2-plugin-extensions
+HomePage: https://github.com/mx3L/subssupport
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-sudoku
 Version: 8.0
 Description: extensions-sudoku
