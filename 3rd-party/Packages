@@ -601,7 +601,7 @@ Size: 1454598
 MD5Sum: 08102fd2d541a836edff08659105b4aa
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.200
+Version: 1.20.1
 Section: base
 Priority: optional
 Architecture: all
@@ -611,9 +611,9 @@ Source: enigma2-plugin-extensions-vavoo.bb
 Homepage: https://github.com/Belfagor2005/vavoo
 OE: enigma2-plugin-extensions
 License: free
-Filename: enigma2-plugin-extensions-vavoo_1.200_all.ipk
-Size: 5273374
-MD5Sum: fe9bb0929840202073fd1091aa4d0fe7
+Filename: enigma2-plugin-extensions-vavoo_1.20.1_all.ipk
+Size: 5271218
+MD5Sum: f2fa96f3e81bb01aeee26b580ddc6988
 
 Package: enigma2-plugin-extensions-vierg
 Version: 8.0
