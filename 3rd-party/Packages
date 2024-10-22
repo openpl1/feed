@@ -694,21 +694,6 @@ Filename: enigma2-plugin-extensions-worldcam_4.5_all.ipk
 Size: 2925430
 MD5Sum: 3f36f07b2e59dd8e94a914d148f94666
 
-Package: enigma2-plugin-extensions-xtraevent
-Version: 6.81
-Depends: python3-core, python3-image, python3-imaging, python3-pillow, python3-requests
-Section: base
-Architecture: all
-Maintainer: digiteng, kitte888
-MD5Sum: 37cdbc1f2147175bcdfb36b2516bf8c1
-Size: 763444
-Filename: enigma2-plugin-extensions-xtraevent_6.81_all.ipk
-Source: enigma2-plugin-extensions-xtraevent.bb
-Description: Poster, background, banner, info support for enigma2
-OE: enigma2-plugin-extensions
-License: GPL-2.0-or-later
-Priority: optional
-
 Package: enigma2-plugin-skins-aglare-fhd-pli
 Version: 4.4
 Section: base
