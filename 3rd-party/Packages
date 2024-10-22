@@ -696,11 +696,11 @@ MD5Sum: 3f36f07b2e59dd8e94a914d148f94666
 
 Package: enigma2-plugin-extensions-xtraevent
 Version: 6.79
-Depends: python3-core, python3-image, python3-imaging, python3-pillow, python3-requests
+Depends: python3-core, python3-image, python3-imaging, python3-requests
 Section: base
 Architecture: all
 Maintainer: digiteng, kitte888
-MD5Sum: 37cdbc1f2147175bcdfb36b2516bf8c1
+MD5Sum: f6a3b8dc3bdcaee4cf5738bdf6e196cb
 SHA256sum: 50a7575c2523c275fc1ccb098083847e95459a2db91cd3b8ed2b770d042be714
 Size: 763676
 Filename: enigma2-plugin-extensions-xtraevent_6.79_all.ipk
