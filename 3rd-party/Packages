@@ -118,7 +118,7 @@ License: LGPL-2.1-only & GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-e2m3u2bouquet
-Version: 1.8.7
+Version: 1.8.8
 Description: e2m3u 2bouquet
 Section: extra
 Priority: optional
@@ -129,9 +129,9 @@ OE: enigma2-plugin-extensions-e2m3u2bouquet
 Homepage: https://www.suls.co.uk/
 Depends: python3-image, python3-pillow
 Source: enigma2-plugin-extensions-e2m3u2bouquet.bb
-Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.8.7_all.ipk
-Size: 2335944
-MD5Sum: 4eed03401d48ee0018a2afd798df9a03
+Filename: enigma2-plugin-extensions-e2m3u2bouquet_1.8.8_all.ipk
+Size: 2351380
+MD5Sum: 4e3e978d354f3ece5de4bc14130ee90d
 
 Package: enigma2-plugin-extensions-embydream
 Version: 1.3.7+git49+12c25be0+12c25be4c9-r74
@@ -297,14 +297,14 @@ MD5Sum: 816c93df3034bf37d14afe08f42e89f3
 SHA256sum: 74b25c1c0377073dccb47c01e9aee0ebdb3556c5a1524edf88b2128e8bdee2e9
 
 Package: enigma2-plugin-extensions-iptvarchive
-Version: 2.0.86
+Version: 2.0.87
 Section: base
 Architecture: all
 Maintainer: 
-MD5Sum: 12f334827d238d64decee28643c5565c
-SHA256sum: 3e3aa0beeccc268fbcad32e9eb4047f4a0d6aa68df0386d03d5610b15a668c9c
-Size: 1088146
-Filename: enigma2-plugin-extensions-iptvarchive_2.0.86_all.ipk
+MD5Sum: 909f2dade504cd2e3f78b29065b8a873
+SHA256sum: a9178303a39fe00cf1881ae02d6b21d3ad6d874a9ae955920f96f8a8388322af
+Size: 1088874
+Filename: enigma2-plugin-extensions-iptvarchive_2.0.87_all.ipk
 Depends: python3, python3-pillow, python3-requests
 Source: enigma2-plugin-extensions-iptvarchive.bb
 Description: iptv archive
@@ -327,21 +327,6 @@ Source: enigma2-plugin-extensions-jedimakerxtream.bb
 Description: Jedi Maker Xtream - Enigma2 IPTV Bouquet Creator
 OE: enigma2-plugin-extensions
 HomePage: https://github.com/kiddac
-License: GPL-2.0-or-later
-Priority: optional
-
-Package: enigma2-plugin-extensions-linuxsat-panel
-Version: 2.5
-Section: extra
-Architecture: all
-Maintainer: www.linuxsat-support.com
-MD5Sum: fdae6fea9865b0896dacd395c834d766
-SHA256sum: 00e3cef69276f5c524ecb9697f987a00a7c3da69978e7eb1fd6e8fcf108d344c
-Size: 8298336
-Filename: enigma2-plugin-extensions-linuxsat-panel_2.5_all.ipk
-Source: enigma2-plugin-extensions-linuxsat-panel.bb
-Description: Linuxsat Panel Addon
-OE: enigma2-plugin-extensions
 License: GPL-2.0-or-later
 Priority: optional
 
