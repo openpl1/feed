@@ -807,7 +807,7 @@ Priority: optional
 
 Package: enigma2-plugin-softcams-cccam
 Version: 2.3.9-r6
-Depends: libc6 (>= 2.40), libstdc++6 (>= 14.2.0), libxcrypt-compat, softcam-support
+Depends: libc6 (>= 2.40), libstdc++6 (>= 14.2.0), libxcrypt-compat, libcrypto-compat, softcam-support
 Recommends: enigma2-plugin-extensions-ppanel
 Section: base
 Architecture: all
@@ -1019,25 +1019,6 @@ Source: c-ares_1.27.0.bb
 Filename: libcares2_1.27.0-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 67924
 MD5Sum: 4fdec9cde5815cd50ff7fb9b797ea89f
-
-Package: libcrypto-compat
-Version: 3.1.1-r0
-Depends: libcrypto, libssl, libxcrypt-compat
-Provides: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.1.1
-Replaces: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.1.1
-Conflicts: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.1.1, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.1.1
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 955fe0bbd6bcfca518dd7ce4a1f5dd31
-SHA256sum: b7830e20b887b92c898c075ac0487049ed81df25f032d56cc21ac8b8f34c671a
-Size: 876
-Filename: libcrypto-compat_3.1.1-r0_cortexa15hf-neon-vfpv4.ipk
-Source: libcrypto-compat_3.1.1.bb
-Description: Compatibility for packages that link to older libcrypto or libssl
-OE: libcrypto-compat
-License: GPL-2.0-only
-Priority: optional
 
 Package: libswresample4
 Version: 6.1.1-r3
